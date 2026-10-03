@@ -1,0 +1,29 @@
+# Historieloftet
+
+En privat nettside for å oppdage historie fra Nasjonalbiblioteket, Internet Archive og DigitaltMuseum.
+
+## Kjøring
+
+Node 22.13+ og npm. Installer med `npm ci`, bygg med `npm run build`, og start med `npm start`. `npm run dev` starter utviklingsversjonen. I miljøer med en feilkonfigurert npm-shim kan npm kjøres via den installerte `npm-cli.js`.
+
+## Kilder og tilgang
+
+- Nasjonalbibliotekets katalog: levende søk, medie- og årsfiltre, tilgangsmerking. Kun forhåndsvisninger merket public domain og fri nettilgang vises.
+- Internet Archive: levende søk og tilgangssjekk mot metadata og filens HEAD-respons. Lydavspilling krever en tilgjengelig MP3 og en oppgitt Creative Commons-lisens. Originalen er alltid lenket.
+- DigitaltMuseum: direkte søkelenker fungerer uten nøkkel. Serveradapteren er klargjort for `DIMU_API_KEY`, men er ikke testet med en ordinær nøkkel. Testnøkkelen brukes ikke i produksjon. Sett nøkkelen som en hemmelig miljøvariabel i Sites før adapteren aktiveres.
+
+Tilgang er ikke det samme som gjenbrukstillatelse. Ukjent tilgang fremstilles aldri som åpen. Ingen arkivfiler lagres eller kopieres inn i prosjektet. Feil hos én kilde påvirker ikke de andre. Tilgangsfilteret gjelder viste resultater; Internet Archive-tilgang sjekkes først i detaljvisningen.
+
+Tilfeldig skuff velger mellom seks søkespor. Søk returnerer 12 treff per kilde per side, maksimalt 50 sider.
+
+## Kontroll
+
+`node scripts/check-archives.mjs` kontrollerer tilgangsmerking, ukjente rettigheter, bildedatoer og bokstavelige søkeord. `npx tsc --noEmit` kontrollerer typer. Søkeendepunktene er kontrollert lokalt med ekte svar fra Nasjonalbiblioteket og Internet Archive.
+
+## Dokumentasjon
+
+- https://store-search.dimu.org/docs
+- https://api.nb.no/?urls.primaryName=items
+- https://archive.org/developers/
+
+Publisering følger Sites, med prosjektidentitet i `.openai/hosting.json`. Den nye nettsiden er privat for eieren.

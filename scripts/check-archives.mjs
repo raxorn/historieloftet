@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {nbItem,iaItem,literal} from '../lib/archive.ts';
+const record={id:'example',metadata:{title:'Bergen',dateCreated:'1900',mediaTypes:['bilder']},_links:{thumbnail_large:{href:'https://example.org/image.jpg'}}};
+const open={isDigital:true,accessAllowedFrom:'EVERYWHERE',viewability:'ALL',isPublicDomain:true};
+assert.equal(nbItem({...record,accessInfo:open}).open,true);
+assert.equal(nbItem({...record,accessInfo:open}).year,'1900');
+assert.ok(nbItem({...record,accessInfo:open}).image);
+for(const patch of [{accessAllowedFrom:'NORWAY'},{viewability:'NONE'},{isDigital:false}])assert.equal(nbItem({...record,accessInfo:{...open,...patch}}).open,false);
+assert.equal(nbItem({...record,accessInfo:{...open,isPublicDomain:false}}).image,undefined);
+assert.equal(nbItem(record).open,false);
+assert.equal(iaItem({identifier:'example',mediatype:'audio',licenseurl:'https://creativecommons.org/publicdomain/zero/1.0/'}).open,false);
+assert.equal(literal('Bergen" OR *:*'),'"Bergen  OR *:*"');
+console.log('Access mapping, unknown rights, photo dates, and literal query checks passed.');
