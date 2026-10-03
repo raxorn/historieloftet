@@ -1,4 +1,5 @@
 import {json,str} from '../../../lib/archive';
+import {iaPhotoDetails} from '../../../lib/photo-details';
 export async function GET(req:Request){
  const id=new URL(req.url).searchParams.get('id')||'';
  if(!/^[a-zA-Z0-9_.-]{1,200}$/.test(id))return Response.json({error:'Ugyldig identifikator'},{status:400});
@@ -17,6 +18,6 @@ export async function GET(req:Request){
  let available=false;
  if(!restricted&&fileUrl){try{const r=await fetch(fileUrl,{method:'HEAD',signal:AbortSignal.timeout(8000)});available=r.ok}catch{}}
  const scanned=files.some((f:any)=>/scandata\.xml$/i.test(f.name));
- return Response.json({open:available,access:restricted?'Krever lån / innlogging':available?'Fritt tilgjengelig':'Tilgang ikke avklart',rights,audio:available&&audio&&reusable?fileUrl:undefined,embed:!restricted&&available&&m.mediatype==='texts'&&scanned?'https://archive.org/embed/'+encodeURIComponent(id):undefined,pages:available&&picture&&candidate===picture&&reusable?[{url:fileUrl,large:fileUrl,label:'1'}]:[]});
+ return Response.json({facts:m.mediatype==='image'?iaPhotoDetails(m):[],open:available,access:restricted?'Krever lån / innlogging':available?'Fritt tilgjengelig':'Tilgang ikke avklart',rights,audio:available&&audio&&reusable?fileUrl:undefined,embed:!restricted&&available&&m.mediatype==='texts'&&scanned?'https://archive.org/embed/'+encodeURIComponent(id):undefined,pages:available&&picture&&candidate===picture&&reusable?[{url:fileUrl,large:fileUrl,label:'1'}]:[]});
  }catch{return Response.json({error:'Tilgangen kunne ikke sjekkes. Åpne hos Internet Archive.'},{status:502});}
 }
