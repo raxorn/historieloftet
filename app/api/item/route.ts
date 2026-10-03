@@ -5,8 +5,9 @@ export async function GET(req:Request){
  if(!/^[a-f0-9]{32}$/.test(id))return Response.json({error:'Ugyldig identifikator'},{status:400});
  try{
  const raw=await json('https://api.nb.no/catalog/v1/items/'+id),item=nbItem(raw);
- if(!item.open||!item.publicDomain)return Response.json({item,pages:[]});
+ if(!item.inlineReadable)return Response.json({item,pages:[]});
  const manifest=await json('https://api.nb.no/catalog/v1/iiif/'+id+'/manifest');
+ if(typeof manifest.license==='string')try{const u=new URL(manifest.license);if(u.protocol==='https:'&&['www.nb.no','creativecommons.org'].includes(u.hostname))item.licenseUrl=u.href}catch{}
  const pages=(manifest.sequences?.[0]?.canvases||[]).slice(0,3000).flatMap((canvas:any)=>{
  const resource=canvas.images?.[0]?.resource,service=allowed(resource?.service?.['@id']);
  if(!service)return [];

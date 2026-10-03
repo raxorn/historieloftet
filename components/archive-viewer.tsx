@@ -8,7 +8,7 @@ const sourceName=(s:string)=>s==='nb'?'Nasjonalbiblioteket':s==='ia'?'Internet A
 export function actionLabel(item:RecordItem){
  if(item.digital===false)return 'Se katalogpost';
  if(item.kind==='Bilder'&&item.image)return 'Se stort bilde';
- if(item.source==='nb'&&item.publicDomain&&item.open&&['Bøker','Aviser'].includes(item.kind))return 'Les her';
+ if(item.source==='nb'&&item.inlineReadable&&['Bøker','Aviser'].includes(item.kind))return 'Les her';
  if(item.kind==='Lyd')return 'Åpne lydopptak';
  if(['Bøker','Aviser'].includes(item.kind))return item.source==='nb'?'Les hos Nasjonalbiblioteket':'Åpne bok';
  return 'Se funnet';
@@ -18,7 +18,7 @@ export default function ArchiveViewer({item:original,onClose}:{item:RecordItem;o
  const [detail,setDetail]=useState<Detail>({}),[loading,setLoading]=useState(true),[attempt,setAttempt]=useState(0),[page,setPage]=useState(0),[zoom,setZoom]=useState(1),[full,setFull]=useState(false),[expanded,setExpanded]=useState(false),[imageError,setImageError]=useState(false),[imageLoading,setImageLoading]=useState(true),[dimensions,setDimensions]=useState({width:1,height:1}),[frame,setFrame]=useState({width:800,height:600}),[audioError,setAudioError]=useState(false);
  const drag=useRef<{x:number;y:number;left:number;top:number}|null>(null);
  const item=detail.item?{...detail.item,creator:detail.item.creator||original.creator}:original,pages=detail.pages||[],current=pages[page];
- const rich=!!(original.image||pages.length||detail.embed||loading&&original.publicDomain);
+ const rich=!!(original.image||pages.length||detail.embed||loading&&original.inlineReadable);
  useEffect(()=>{dialog.current?.showModal();const previous=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{document.body.style.overflow=previous}},[]);
  useEffect(()=>{const c=new AbortController();setLoading(true);setDetail({});const route=original.source==='nb'?'item':original.source==='ia'?'access':null;
  if(!route){setLoading(false);return}
@@ -44,7 +44,9 @@ export default function ArchiveViewer({item:original,onClose}:{item:RecordItem;o
  <div className="detail-access"><b>{loading&&!rich?'Sjekker tilgang …':displayAccess}</b>{item.accessGroup==='norway'?<p>Kan leses hos Nasjonalbiblioteket fra norsk IP-adresse.</p>:item.accessGroup==='offline'?<p>Dette er en katalogpost. Digitalt innhold er ikke tilgjengelig.</p>:item.accessGroup==='restricted'||displayAccess.includes('lån')?<p>Kilden håndterer nødvendig innlogging, lån eller bibliotektilgang.</p>:!rich&&!detail.audio&&!loading?<p>{detail.error||'Bruk kildens visning for å åpne innholdet.'}</p>:null}</div>
  {detail.audio&&<><button className="play-button" onClick={()=>void audio.current?.play().catch(()=>setAudioError(true))}>Spill av</button><audio ref={audio} controls preload="none" src={detail.audio} onError={()=>setAudioError(true)}/>{audioError&&<p role="status">Lyden kunne ikke spilles. Bruk lenken til kilden.</p>}</>}
  {!rich&&detail.error&&<button onClick={()=>setAttempt(a=>a+1)}>Prøv tilgangssjekken igjen</button>}
- <p className="rights-line">{item.publicDomain?'Public domain':detail.rights||item.rights}</p><details className="rights-details"><summary>Om rettigheter</summary><p>{item.publicDomain?'Kilden merker materialet som public domain. Oppgi gjerne fotograf eller opphavsperson og kilde ved gjenbruk.':item.accessGroup==='norway'?'Bokhylla-avtalen gir lesetilgang hos Nasjonalbiblioteket. Kopiering og viderepublisering følger kildens vilkår.':'Tilgang og gjenbruksrettigheter er ulike ting. Se lisensen hos kilden før viderepublisering.'}</p><a href={item.source==='nb'?'https://www.nb.no/tilgang/lisens/':item.url} target="_blank" rel="noreferrer">Se kildens vilkår</a></details>
+ <p className="rights-line">{item.licenseUrl?<a href={item.licenseUrl} target="_blank" rel="noreferrer">{item.rights}</a>:item.publicDomain?'Public domain':detail.rights||item.rights}</p>
+ {item.licenseUrl&&<p className="small">Kilde: <a href={item.url} target="_blank" rel="noreferrer">Nasjonalbiblioteket</a>. Skannene vises uendret.{item.nonCommercial?' Kun ikke-kommersiell bruk.':''}</p>}
+ <details className="rights-details"><summary>Om rettigheter</summary><p>{item.publicDomain?'Kilden merker materialet som public domain. Oppgi gjerne fotograf eller opphavsperson og kilde ved gjenbruk.':item.accessGroup==='norway'?'Bokhylla-avtalen gir lesetilgang hos Nasjonalbiblioteket. NBs leser blokkerer innebygging på dette nettstedet.':item.licenseUrl?'Oppgi tittel, opphavsperson der denne er kjent, kilde og lisens ved gjenbruk. Følg lisensvilkårene som er lenket her.':'Tilgang og gjenbruksrettigheter er ulike ting. Se lisensen hos kilden før viderepublisering.'}</p><a href={item.licenseUrl||(item.source==='nb'?'https://www.nb.no/tilgang/lisens/':item.url)} target="_blank" rel="noreferrer">Se kildens vilkår</a></details>
  <a className={rich||detail.audio?'source-secondary':'primary-link'} href={item.url} target="_blank" rel="noreferrer">{rich?'Original og kildeopplysninger':externalLabel}<ExternalLink size={16}/></a>
  </div></div></dialog>;
 }

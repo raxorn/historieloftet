@@ -22,3 +22,11 @@ assert.equal(iaAccessQuery('norway'),null);
 assert.equal(nbItem({...record,accessInfo:{isDigital:false}}).access,'Ikke digitalisert');
 assert.equal(nbItem({...record,accessInfo:{...open,accessAllowedFrom:'NORWAY'}}).accessGroup,'norway');
 console.log('Access mapping, unknown rights, photo dates, and literal query checks passed.');
+
+for(const license of ['ccby','ccbync','ccbysa','cc0']){
+ const item=nbItem({...record,accessInfo:{...open,isPublicDomain:false,license}});
+ assert.equal(item.inlineReadable,true); assert.ok(item.licenseUrl); assert.ok(item.image);
+ assert.equal(nbItem({...record,accessInfo:{...open,isPublicDomain:false,license,accessAllowedFrom:'NORWAY'}}).inlineReadable,false);
+}
+for(const license of ['bokhylla','unknown'])assert.equal(nbItem({...record,accessInfo:{...open,isPublicDomain:false,license}}).inlineReadable,false);
+assert.equal(nbItem({...record,metadata:{...record.metadata,originInfo:{issued:'19500828'}}}).year,'28.08.1950');
