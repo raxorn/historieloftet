@@ -12,7 +12,9 @@ Node 22.13+ og npm. Installer med `npm ci`, bygg med `npm run build`, og start m
 - Internet Archive: levende søk og tilgangssjekk mot metadata og filens HEAD-respons. Lydavspilling krever en tilgjengelig MP3 og en oppgitt Creative Commons-lisens. Originalen er alltid lenket.
 - DigitaltMuseum: direkte søkelenker fungerer uten nøkkel. Serveradapteren er klargjort for `DIMU_API_KEY`, men er ikke testet med en ordinær nøkkel. Testnøkkelen brukes ikke i produksjon. Sett nøkkelen som en hemmelig miljøvariabel i Sites før adapteren aktiveres.
 
-Tilgang er ikke det samme som gjenbrukstillatelse. Ukjent tilgang fremstilles aldri som åpen. Ingen arkivfiler lagres eller kopieres inn i prosjektet. Feil hos én kilde påvirker ikke de andre. Tilgangsfilteret gjelder viste resultater; Internet Archive-tilgang sjekkes først i detaljvisningen.
+Tilgang er ikke det samme som gjenbrukstillatelse. Ukjent tilgang fremstilles aldri som åpen. Ingen arkivfiler lagres eller kopieres inn i prosjektet. Feil hos én kilde påvirker ikke de andre. Tilgangsfiltrene sendes til kildekatalogene og gjelder hele søket. Standardvisningen viser NB-gruppene public eller bokhylla, og IA uten lånebegrensning. NB bruker digital:Ja, contentClasses:public/bokhylla/restricted, og digital:(NOT Ja) for ikke-digitalisert materiale. Norge-filteret dekker Bokhylla; Internet Archive har ikke Norge- eller ikke-digitalisert-grupper. IA-filtilgang kontrolleres ved åpning. Katalogposter er av som standard.
+
+Bildevisningen henter IIIF-manifest fra NB og viser 1800 piksler bredde, eller 3600 ved zoom, begrenset til originalens størrelse. Den støtter panorering, fullskjerm og sidevalg for bøker/aviser. Bare fri nettilgang og public domain fra NB åpner denne leseren. Bokhylla vises i NBs egen leser. Åpne skannede IA-bøker vises gjennom kildens offisielle embed-leser med ekstern reservelenke. Lyd beholder lisens- og filtilgangskontroll.
 
 Tilfeldig skuff velger mellom seks søkespor. Søk returnerer 12 treff per kilde per side, maksimalt 50 sider.
 
