@@ -1,0 +1,37 @@
+{
+  "Sarpsborg": [
+    {"name":"Sarpsfossen","aliases":["sarpsfossen","sarpefossen","sarpfossen"]},
+    {"name":"Borregaard","aliases":["borregaard","borregård","borregard"]},
+    {"name":"Hafslund","aliases":["hafslund"]},
+    {"name":"Borgarsyssel","aliases":["borgarsyssel"]},
+    {"name":"Kulåsparken","aliases":["kulåsparken","kulås park","kulås"]},
+    {"name":"Sandesund","aliases":["sandesund"]},
+    {"name":"Sarpsbrua","aliases":["sarpsbrua","sarpsbroen","sarpsbruen"]},
+    {"name":"Tune kirke","aliases":["tune kirke","tune krk"]},
+    {"name":"Skjeberg kirke","aliases":["skjeberg kirke","skjeberg krk"]},
+    {"name":"Storedalsanlegget","aliases":["storedalsanlegget","storedal"]},
+    {"name":"Ruinparken","aliases":["ruinparken"]},
+    {"name":"Alvim","aliases":["alvim"]},
+    {"name":"Greåker","aliases":["greåker"]},
+    {"name":"Hafslundsøy","aliases":["hafslundsøy","hafslundsøya"]},
+    {"name":"Skjeberg","aliases":["skjeberg"]},
+    {"name":"Tune","aliases":["tune"]}
+  ],
+  "Fredrikstad": [
+    {"name":"Gamlebyen","aliases":["gamlebyen"]},
+    {"name":"Kongsten fort","aliases":["kongsten fort","kongsten"]},
+    {"name":"Kråkerøy","aliases":["kråkerøy"]},
+    {"name":"Fredrikstad domkirke","aliases":["fredrikstad domkirke"]},
+    {"name":"Fredrikstadbrua","aliases":["fredrikstadbrua","fredrikstadbroen","fredrikstadbruen"]},
+    {"name":"Isegran","aliases":["isegran"]},
+    {"name":"Elingård","aliases":["elingård","elingard"]},
+    {"name":"Hankø","aliases":["hankø"]},
+    {"name":"Cicignon","aliases":["cicignon"]},
+    {"name":"Fiskebrygga","aliases":["fiskebrygga","fiskebryggen"]},
+    {"name":"Glemmen kirke","aliases":["glemmen kirke","glemmen krk"]},
+    {"name":"Gressvik","aliases":["gressvik"]},
+    {"name":"Onsøy","aliases":["onsøy"]},
+    {"name":"Gluppehamn","aliases":["gluppehamn"]},
+    {"name":"Krossnes","aliases":["krossnes"]}
+  ]
+}

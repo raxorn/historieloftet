@@ -1,7 +1,7 @@
 {
-  "id": "city-coverage-audit-v1",
+  "id": "city-coverage-audit-v2",
   "catalogFetchedAt": "2026-10-04T16:37:07.047Z",
-  "method": "Full opptelling av de lagrede katalogpostene for Sarpsborg og Fredrikstad før 2000. Gruppene er blanding av pilotgjennomgang og automatiske forslag fra arkivmetadata; ikke alle er visuelt bekreftet. Navngitte steder er teksttreff i arkivopplysninger, ikke verifisert GPS eller motiv.",
+  "method": "Full opptelling av de lagrede katalogpostene for Sarpsborg og Fredrikstad før 2000. Gruppene er blanding av pilotgjennomgang og automatiske forslag fra arkivmetadata; ikke alle er visuelt bekreftet. Navngitte steder er navnetreff i arkivtittel eller steds-/beskrivelsesfelt, ikke verifisert motiv, historisk betydning eller GPS. Kategorier kan overlappe.",
   "total": 8525,
   "uniquePhotos": 8524,
   "visuallyReviewed": 697,
@@ -206,29 +206,116 @@
       ],
       "namedPlaces": [
         {
-          "name": "Hafslund",
-          "count": 228,
-          "visuallyReviewed": 51
+          "name": "Borregaard",
+          "count": 167,
+          "titleMatches": 155,
+          "locationOnly": 12,
+          "visuallyReviewed": 45
         },
         {
-          "name": "Borregaard",
-          "count": 165,
-          "visuallyReviewed": 43
+          "name": "Skjeberg",
+          "count": 377,
+          "titleMatches": 154,
+          "locationOnly": 223,
+          "visuallyReviewed": 67
         },
         {
           "name": "Sarpsfossen",
           "count": 256,
+          "titleMatches": 122,
+          "locationOnly": 134,
           "visuallyReviewed": 59
         },
         {
-          "name": "Kulås",
-          "count": 7,
-          "visuallyReviewed": 0
+          "name": "Hafslund",
+          "count": 226,
+          "titleMatches": 106,
+          "locationOnly": 120,
+          "visuallyReviewed": 51
+        },
+        {
+          "name": "Tune",
+          "count": 442,
+          "titleMatches": 82,
+          "locationOnly": 360,
+          "visuallyReviewed": 18
+        },
+        {
+          "name": "Skjeberg kirke",
+          "count": 81,
+          "titleMatches": 81,
+          "locationOnly": 0,
+          "visuallyReviewed": 29
+        },
+        {
+          "name": "Sandesund",
+          "count": 255,
+          "titleMatches": 62,
+          "locationOnly": 193,
+          "visuallyReviewed": 14
+        },
+        {
+          "name": "Kulåsparken",
+          "count": 60,
+          "titleMatches": 41,
+          "locationOnly": 19,
+          "visuallyReviewed": 6
         },
         {
           "name": "Borgarsyssel",
           "count": 44,
+          "titleMatches": 40,
+          "locationOnly": 4,
           "visuallyReviewed": 1
+        },
+        {
+          "name": "Alvim",
+          "count": 133,
+          "titleMatches": 17,
+          "locationOnly": 116,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Tune kirke",
+          "count": 68,
+          "titleMatches": 16,
+          "locationOnly": 52,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Sarpsbrua",
+          "count": 11,
+          "titleMatches": 9,
+          "locationOnly": 2,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Ruinparken",
+          "count": 11,
+          "titleMatches": 9,
+          "locationOnly": 2,
+          "visuallyReviewed": 3
+        },
+        {
+          "name": "Greåker",
+          "count": 8,
+          "titleMatches": 2,
+          "locationOnly": 6,
+          "visuallyReviewed": 5
+        },
+        {
+          "name": "Hafslundsøy",
+          "count": 390,
+          "titleMatches": 0,
+          "locationOnly": 390,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Storedalsanlegget",
+          "count": 4,
+          "titleMatches": 0,
+          "locationOnly": 4,
+          "visuallyReviewed": 0
         }
       ]
     },
@@ -375,24 +462,102 @@
       ],
       "namedPlaces": [
         {
+          "name": "Hankø",
+          "count": 654,
+          "titleMatches": 421,
+          "locationOnly": 233,
+          "visuallyReviewed": 41
+        },
+        {
           "name": "Gamlebyen",
           "count": 219,
+          "titleMatches": 96,
+          "locationOnly": 123,
           "visuallyReviewed": 29
         },
         {
-          "name": "Kongsten",
+          "name": "Onsøy",
+          "count": 220,
+          "titleMatches": 72,
+          "locationOnly": 148,
+          "visuallyReviewed": 13
+        },
+        {
+          "name": "Glemmen kirke",
+          "count": 46,
+          "titleMatches": 46,
+          "locationOnly": 0,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Kongsten fort",
           "count": 54,
+          "titleMatches": 40,
+          "locationOnly": 14,
           "visuallyReviewed": 7
+        },
+        {
+          "name": "Elingård",
+          "count": 22,
+          "titleMatches": 22,
+          "locationOnly": 0,
+          "visuallyReviewed": 2
         },
         {
           "name": "Kråkerøy",
           "count": 36,
+          "titleMatches": 11,
+          "locationOnly": 25,
           "visuallyReviewed": 7
         },
         {
           "name": "Fredrikstad domkirke",
           "count": 14,
+          "titleMatches": 11,
+          "locationOnly": 3,
           "visuallyReviewed": 1
+        },
+        {
+          "name": "Fiskebrygga",
+          "count": 11,
+          "titleMatches": 11,
+          "locationOnly": 0,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Gressvik",
+          "count": 155,
+          "titleMatches": 3,
+          "locationOnly": 152,
+          "visuallyReviewed": 2
+        },
+        {
+          "name": "Fredrikstadbrua",
+          "count": 126,
+          "titleMatches": 3,
+          "locationOnly": 123,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Cicignon",
+          "count": 24,
+          "titleMatches": 2,
+          "locationOnly": 22,
+          "visuallyReviewed": 9
+        },
+        {
+          "name": "Gluppehamn",
+          "count": 177,
+          "titleMatches": 0,
+          "locationOnly": 177,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Krossnes",
+          "count": 54,
+          "titleMatches": 0,
+          "locationOnly": 54,
+          "visuallyReviewed": 0
         }
       ]
     }

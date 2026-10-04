@@ -1,79 +1,13 @@
 {
-  "id": "topic-source-discovery-v1",
-  "fetchedAt": "2026-10-04T17:36:36.163Z",
-  "method": "Stikkprøve i Nasjonalbibliotekets åpne katalog for åtte navngitte steder. Boktall er søketreff med navnet i tittelen; utvalgte katalogposter er ikke innholdskontrollert. Avistall er søketreff i avisutgaver fra 1800–1999 og er verken antall artikler eller bekreftede forbindelser til fotografier. Søkene dekker ett navneoppslag per sted og kan mangle stavevarianter. Ingen avisutgaver er automatisk knyttet til enkeltbilder.",
+  "id": "topic-source-discovery-v2",
+  "fetchedAt": "2026-10-04T17:57:41.764Z",
+  "method": "Foreløpige søk i Nasjonalbibliotekets åpne katalog for navngitte steder som finnes i minst ni arkivtitler. Boktall er søketreff på navn i tittelen; katalogpostene er ikke innholdskontrollert. Avistall er søketreff i avisutgaver fra 1800–1999 og er verken antall artikler eller bekreftede forbindelser til fotografier. Søket dekker ett navneoppslag per sted og kan mangle stavevarianter. Ingen avisutgaver er automatisk knyttet til enkeltbilder.",
   "topics": [
     {
       "city": "Sarpsborg",
-      "name": "Hafslund",
-      "photos": 228,
-      "bookTitleHits": 38,
-      "bookExamples": [
-        {
-          "id": "160fee714a2741987f39dccdc6fbd9ee",
-          "title": "Hafslund hovedgård",
-          "year": "2002",
-          "url": "https://www.nb.no/items/160fee714a2741987f39dccdc6fbd9ee",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "8e7a33295165ac0abb9eb793fc78388f",
-          "title": "Hafslund hovedgaard : 1757-1937",
-          "year": "19370101",
-          "url": "https://www.nb.no/items/8e7a33295165ac0abb9eb793fc78388f",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "4f3b255ef38304a1139e33ef1e0b2995",
-          "title": "Hafslund hovedgård : 1757-1937",
-          "year": "19530101",
-          "url": "https://www.nb.no/items/4f3b255ef38304a1139e33ef1e0b2995",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "dc08d8c73c4c7df9f49ff4a713c12810",
-          "title": "Hafslund hovedgaard : 1757-1937",
-          "year": "1937",
-          "url": "https://www.nb.no/items/dc08d8c73c4c7df9f49ff4a713c12810",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "cf49ed981a8be46654a2529866640d3d",
-          "title": "Hafslund hovedgård : 1757-1937",
-          "year": "1937",
-          "url": "https://www.nb.no/items/cf49ed981a8be46654a2529866640d3d",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "13ab30d1b0ef2b48b0140b4a9d4283d7",
-          "title": "Hafslund hovedgård 250 år",
-          "year": "2012",
-          "url": "https://www.nb.no/items/13ab30d1b0ef2b48b0140b4a9d4283d7",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "01b0d24a9f1bcac66357de1c4b4cbbb3",
-          "title": "Hafslund hovedgaard : 1757-1937",
-          "year": "1937",
-          "url": "https://www.nb.no/items/01b0d24a9f1bcac66357de1c4b4cbbb3",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        },
-        {
-          "id": "ee63420e4697a348135983b757aa0d13",
-          "title": "Aktieselskabet Hafslund : 1898-1948",
-          "year": "1948",
-          "url": "https://www.nb.no/items/ee63420e4697a348135983b757aa0d13",
-          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
-        }
-      ],
-      "newspaperSearchHits": 365321,
-      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Hafslund",
-      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Hafslund"
-    },
-    {
-      "city": "Sarpsborg",
       "name": "Borregaard",
-      "photos": 165,
+      "photos": 167,
+      "titleMatches": 155,
       "bookTitleHits": 83,
       "bookExamples": [
         {
@@ -139,8 +73,77 @@
     },
     {
       "city": "Sarpsborg",
+      "name": "Skjeberg",
+      "photos": 377,
+      "titleMatches": 154,
+      "bookTitleHits": 91,
+      "bookExamples": [
+        {
+          "id": "c0082cf4b3094ddd3662565a7822b2c9",
+          "title": "Skjeberg bygdebok",
+          "year": "19500101",
+          "url": "https://www.nb.no/items/c0082cf4b3094ddd3662565a7822b2c9",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "e776c65608d2cbe89afa99f281adc9ae",
+          "title": "Bygdeliv i Skjeberg",
+          "year": "19890101",
+          "url": "https://www.nb.no/items/e776c65608d2cbe89afa99f281adc9ae",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "7009c17597782ebe77f4fe95e29a7218",
+          "title": "Bygdeliv i Skjeberg",
+          "year": "1989",
+          "url": "https://www.nb.no/items/7009c17597782ebe77f4fe95e29a7218",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "cb186fdda8f03b2d063069cabc130097",
+          "title": "Folketelling 1900 Skjeberg",
+          "year": "1997",
+          "url": "https://www.nb.no/items/cb186fdda8f03b2d063069cabc130097",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "54f3a140f77ecf5f4289fe265190c3db",
+          "title": "Skoskatt 1711 : Skjeberg prestegjeld",
+          "year": "1980",
+          "url": "https://www.nb.no/items/54f3a140f77ecf5f4289fe265190c3db",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "748b5a180e091518eda538da3c49be8a",
+          "title": "Skjeberg høyre 100 år",
+          "year": "19840101",
+          "url": "https://www.nb.no/items/748b5a180e091518eda538da3c49be8a",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "3370ea6433edc452528fa19cc963029d",
+          "title": "Skjeberg høyre 100 år",
+          "year": "1984",
+          "url": "https://www.nb.no/items/3370ea6433edc452528fa19cc963029d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "0a294c6908c4e1b831ccf9ce0477877d",
+          "title": "Skjeberg bygdebok. D. 2",
+          "year": "1950",
+          "url": "https://www.nb.no/items/0a294c6908c4e1b831ccf9ce0477877d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 303937,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Skjeberg",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Skjeberg"
+    },
+    {
+      "city": "Sarpsborg",
       "name": "Sarpsfossen",
       "photos": 256,
+      "titleMatches": 122,
       "bookTitleHits": 13,
       "bookExamples": [
         {
@@ -206,8 +209,230 @@
     },
     {
       "city": "Sarpsborg",
+      "name": "Hafslund",
+      "photos": 226,
+      "titleMatches": 106,
+      "bookTitleHits": 38,
+      "bookExamples": [
+        {
+          "id": "160fee714a2741987f39dccdc6fbd9ee",
+          "title": "Hafslund hovedgård",
+          "year": "2002",
+          "url": "https://www.nb.no/items/160fee714a2741987f39dccdc6fbd9ee",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "8e7a33295165ac0abb9eb793fc78388f",
+          "title": "Hafslund hovedgaard : 1757-1937",
+          "year": "19370101",
+          "url": "https://www.nb.no/items/8e7a33295165ac0abb9eb793fc78388f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "4f3b255ef38304a1139e33ef1e0b2995",
+          "title": "Hafslund hovedgård : 1757-1937",
+          "year": "19530101",
+          "url": "https://www.nb.no/items/4f3b255ef38304a1139e33ef1e0b2995",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "dc08d8c73c4c7df9f49ff4a713c12810",
+          "title": "Hafslund hovedgaard : 1757-1937",
+          "year": "1937",
+          "url": "https://www.nb.no/items/dc08d8c73c4c7df9f49ff4a713c12810",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "cf49ed981a8be46654a2529866640d3d",
+          "title": "Hafslund hovedgård : 1757-1937",
+          "year": "1937",
+          "url": "https://www.nb.no/items/cf49ed981a8be46654a2529866640d3d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "13ab30d1b0ef2b48b0140b4a9d4283d7",
+          "title": "Hafslund hovedgård 250 år",
+          "year": "2012",
+          "url": "https://www.nb.no/items/13ab30d1b0ef2b48b0140b4a9d4283d7",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "01b0d24a9f1bcac66357de1c4b4cbbb3",
+          "title": "Hafslund hovedgaard : 1757-1937",
+          "year": "1937",
+          "url": "https://www.nb.no/items/01b0d24a9f1bcac66357de1c4b4cbbb3",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ee63420e4697a348135983b757aa0d13",
+          "title": "Aktieselskabet Hafslund : 1898-1948",
+          "year": "1948",
+          "url": "https://www.nb.no/items/ee63420e4697a348135983b757aa0d13",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 365321,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Hafslund",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Hafslund"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Tune",
+      "photos": 442,
+      "titleMatches": 82,
+      "bookTitleHits": 125,
+      "bookExamples": [
+        {
+          "id": "3aec32595b8446d6f996701d0e3fca09",
+          "title": "Tune herred",
+          "year": "1937",
+          "url": "https://www.nb.no/items/3aec32595b8446d6f996701d0e3fca09",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "2cb1016af7b8e6f89d2d1a0fb2d691dc",
+          "title": "Tune : gårdshistorie",
+          "year": "19800101",
+          "url": "https://www.nb.no/items/2cb1016af7b8e6f89d2d1a0fb2d691dc",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "edeb48be292526874f316318025054f4",
+          "title": "Folketellingen 1900 : Tune",
+          "year": "1996",
+          "url": "https://www.nb.no/items/edeb48be292526874f316318025054f4",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "56025e154f81cf7f825ae6837e5403a2",
+          "title": "Tune 1800-1930",
+          "year": "19830101",
+          "url": "https://www.nb.no/items/56025e154f81cf7f825ae6837e5403a2",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ce7e99b20261c43740ccf0f8c0fbf106",
+          "title": "Tune 1537-1800",
+          "year": "19780101",
+          "url": "https://www.nb.no/items/ce7e99b20261c43740ccf0f8c0fbf106",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "c7e479003cf32f6dd82da01136adf0db",
+          "title": "Tune : 1800-1930",
+          "year": "1983",
+          "url": "https://www.nb.no/items/c7e479003cf32f6dd82da01136adf0db",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "47e347101a85c98b589051ffdb2fb28b",
+          "title": "Tune : 1537-1800",
+          "year": "1978",
+          "url": "https://www.nb.no/items/47e347101a85c98b589051ffdb2fb28b",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ee2438dea133a5bf127360639b692dd4",
+          "title": "Tune : 1930-1992",
+          "year": "2004",
+          "url": "https://www.nb.no/items/ee2438dea133a5bf127360639b692dd4",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 335433,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Tune",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Tune"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Skjeberg kirke",
+      "photos": 81,
+      "titleMatches": 81,
+      "bookTitleHits": 3,
+      "bookExamples": [
+        {
+          "id": "622659fc21b4d15a5c2e62e457241662",
+          "title": "Skjeberg kirke : \"et brokar i tidens strøm\"",
+          "year": "1996",
+          "url": "https://www.nb.no/items/622659fc21b4d15a5c2e62e457241662",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "9fbabee3cbdf73ba76b48cfb5615895c",
+          "title": "Familien Wærenschiold til Hafslund : gravskrifter med genealogiske data i Skjeberg kirke",
+          "year": "1922",
+          "url": "https://www.nb.no/items/9fbabee3cbdf73ba76b48cfb5615895c",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "cfe878678c160cd883f362c3287c1529",
+          "title": "Familien Wærenschiold til Hafslund : gravskrifter med genealogiske data i Skjeberg kirke",
+          "year": "19220101",
+          "url": "https://www.nb.no/items/cfe878678c160cd883f362c3287c1529",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 17004,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Skjeberg%20kirke",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Skjeberg%20kirke"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Sandesund",
+      "photos": 255,
+      "titleMatches": 62,
+      "bookTitleHits": 3,
+      "bookExamples": [
+        {
+          "id": "12855dcabbeccd248c0ed25fafa17697",
+          "title": "Bruene ved Sandesund",
+          "year": "2008",
+          "url": "https://www.nb.no/items/12855dcabbeccd248c0ed25fafa17697",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "cb9296abcca68520f8ebfb59b1db7c38",
+          "title": "Bru nr 01-0613 Sandesund bru : rapport fra spesialinspeksjon",
+          "year": "2004",
+          "url": "https://www.nb.no/items/cb9296abcca68520f8ebfb59b1db7c38",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "371e4deaf157312e1eb1f46fd0eee9b2",
+          "title": "Lokalhistorisk turhåndbok for Glommastien : Fredrikstad - Greåker - Sandesund - Sundløkka - Sellebakk- Gamlebyen",
+          "year": "1998",
+          "url": "https://www.nb.no/items/371e4deaf157312e1eb1f46fd0eee9b2",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 18367,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Sandesund",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Sandesund"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Kulåsparken",
+      "photos": 60,
+      "titleMatches": 41,
+      "bookTitleHits": 1,
+      "bookExamples": [
+        {
+          "id": "4e9a01acd6ba420336f522b72d06405b",
+          "title": "Kulåsparken : orienteringskart",
+          "year": "1997",
+          "url": "https://www.nb.no/items/4e9a01acd6ba420336f522b72d06405b",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 5828,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Kul%C3%A5sparken",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Kul%C3%A5sparken"
+    },
+    {
+      "city": "Sarpsborg",
       "name": "Borgarsyssel",
       "photos": 44,
+      "titleMatches": 40,
       "bookTitleHits": 24,
       "bookExamples": [
         {
@@ -272,9 +497,122 @@
       "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Borgarsyssel"
     },
     {
+      "city": "Sarpsborg",
+      "name": "Alvim",
+      "photos": 133,
+      "titleMatches": 17,
+      "bookTitleHits": 0,
+      "bookExamples": [],
+      "newspaperSearchHits": 50024,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Alvim",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Alvim"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Tune kirke",
+      "photos": 68,
+      "titleMatches": 16,
+      "bookTitleHits": 0,
+      "bookExamples": [],
+      "newspaperSearchHits": 33999,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Tune%20kirke",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Tune%20kirke"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Sarpsbrua",
+      "photos": 11,
+      "titleMatches": 9,
+      "bookTitleHits": 0,
+      "bookExamples": [],
+      "newspaperSearchHits": 2705,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Sarpsbrua",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Sarpsbrua"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Ruinparken",
+      "photos": 11,
+      "titleMatches": 9,
+      "bookTitleHits": 0,
+      "bookExamples": [],
+      "newspaperSearchHits": 5052,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Ruinparken",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Ruinparken"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Hankø",
+      "photos": 654,
+      "titleMatches": 421,
+      "bookTitleHits": 50,
+      "bookExamples": [
+        {
+          "id": "ae9503aa9755ecf55bba49b689d61362",
+          "title": "Hankø",
+          "year": "19580101",
+          "url": "https://www.nb.no/items/ae9503aa9755ecf55bba49b689d61362",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "89b2ceaabb332f6ee2789425b78e36b1",
+          "title": "Hankø",
+          "year": "1958",
+          "url": "https://www.nb.no/items/89b2ceaabb332f6ee2789425b78e36b1",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "cac020dd3e92899a490bc1c9b2a2e9ec",
+          "title": "Hankø : fra husmannsplass til paradis",
+          "year": "2005",
+          "url": "https://www.nb.no/items/cac020dd3e92899a490bc1c9b2a2e9ec",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "1923de7523a3696636e48b31b5279fb1",
+          "title": "Hankø bad : \" - et Mindernes Herbarium.\"",
+          "year": "1991",
+          "url": "https://www.nb.no/items/1923de7523a3696636e48b31b5279fb1",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "a255088f6791e42fe81d81782d3eb94f",
+          "title": "Hankø Yacht Club 1954-2004",
+          "year": "2004",
+          "url": "https://www.nb.no/items/a255088f6791e42fe81d81782d3eb94f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "60f757c0762252f3f16c994849f92ee3",
+          "title": "Vanessa, eller Hvordan overleve på Hankø",
+          "year": "1994",
+          "url": "https://www.nb.no/items/60f757c0762252f3f16c994849f92ee3",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "71d320a1d290e6385a201f08fe97c2f1",
+          "title": "Hankø vel : en 60 års kulturhistorie",
+          "year": "2021",
+          "url": "https://www.nb.no/items/71d320a1d290e6385a201f08fe97c2f1",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "0fee23dcdb74e02fccdce04412591777",
+          "title": "Effektiv prosjektvirksomhet, 28.-30. september 1981, Hankø",
+          "year": "1981",
+          "url": "https://www.nb.no/items/0fee23dcdb74e02fccdce04412591777",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 101691,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Hank%C3%B8",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Hank%C3%B8"
+    },
+    {
       "city": "Fredrikstad",
       "name": "Gamlebyen",
       "photos": 219,
+      "titleMatches": 96,
       "bookTitleHits": 104,
       "bookExamples": [
         {
@@ -340,8 +678,117 @@
     },
     {
       "city": "Fredrikstad",
-      "name": "Kongsten",
+      "name": "Onsøy",
+      "photos": 220,
+      "titleMatches": 72,
+      "bookTitleHits": 54,
+      "bookExamples": [
+        {
+          "id": "d8e3c54307799b331256ee2838829f3c",
+          "title": "Onsøy leksikon",
+          "year": "19900101",
+          "url": "https://www.nb.no/items/d8e3c54307799b331256ee2838829f3c",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "b46baf48025bf4d31a176d41f3ec3d41",
+          "title": "Onsøy leksikon",
+          "year": "1990",
+          "url": "https://www.nb.no/items/b46baf48025bf4d31a176d41f3ec3d41",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "b72b8eb3e2eb03b2cd33ef18f2832cf7",
+          "title": "Onsøy sommergalleri 1990",
+          "year": "1990",
+          "url": "https://www.nb.no/items/b72b8eb3e2eb03b2cd33ef18f2832cf7",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "beb35cc59a0a6ce35f24d4c5b4f5cd4e",
+          "title": "Onsøy - Oden's bygd",
+          "year": "1944",
+          "url": "https://www.nb.no/items/beb35cc59a0a6ce35f24d4c5b4f5cd4e",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "1c1f1a9f85c2b4b11fd1775261f1d754",
+          "title": "Mot Onsøy 1814",
+          "year": "1991",
+          "url": "https://www.nb.no/items/1c1f1a9f85c2b4b11fd1775261f1d754",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "e63556b0fef2a27a9ed6bcd91b5a7b8d",
+          "title": "Bilrutene i Onsøy : fra Græsvik vognmannsforretning til Onsøy bilruter",
+          "year": "2003",
+          "url": "https://www.nb.no/items/e63556b0fef2a27a9ed6bcd91b5a7b8d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "767953e2ab978e6c0570718a5fc4cebc",
+          "title": "Generalplan for Onsøy kommune 1969",
+          "year": "19690101",
+          "url": "https://www.nb.no/items/767953e2ab978e6c0570718a5fc4cebc",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "9ed6ed343995320799d43ff940fb4759",
+          "title": "Bustadnavn i Østfold. 11 : Onsøy",
+          "year": "2012",
+          "url": "https://www.nb.no/items/9ed6ed343995320799d43ff940fb4759",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 166710,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Ons%C3%B8y",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Ons%C3%B8y"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Glemmen kirke",
+      "photos": 46,
+      "titleMatches": 46,
+      "bookTitleHits": 4,
+      "bookExamples": [
+        {
+          "id": "e99389eb220c6f532cd6c3a2f8875ce2",
+          "title": "Glemmen kirke 100 år : 1853 - 30.november - 1953",
+          "year": "1953",
+          "url": "https://www.nb.no/items/e99389eb220c6f532cd6c3a2f8875ce2",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "5079b9f438a2c8b70c6dd0aa12cd51cc",
+          "title": "Glemmen kirke 100 år : 1853 - 30. november - 1953",
+          "year": "19530101",
+          "url": "https://www.nb.no/items/5079b9f438a2c8b70c6dd0aa12cd51cc",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "e24aca9da22b29979eb379e9980e47d8",
+          "title": "Veiviser for Glemmen kirke : -står om enn tårnene faller-",
+          "year": "1999",
+          "url": "https://www.nb.no/items/e24aca9da22b29979eb379e9980e47d8",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "839720c6680fbfc4b4c4d65640ada745",
+          "title": "Egil Hovland - og korene i Glemmen kirke : festskrift til Egil Hovland på 70-års dagen 18. oktober 1994",
+          "year": "1994",
+          "url": "https://www.nb.no/items/839720c6680fbfc4b4c4d65640ada745",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 33914,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Glemmen%20kirke",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Glemmen%20kirke"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Kongsten fort",
       "photos": 54,
+      "titleMatches": 40,
       "bookTitleHits": 4,
       "bookExamples": [
         {
@@ -373,14 +820,26 @@
           "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
         }
       ],
-      "newspaperSearchHits": 62569,
-      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Kongsten",
-      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Kongsten"
+      "newspaperSearchHits": 6173,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Kongsten%20fort",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Kongsten%20fort"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Elingård",
+      "photos": 22,
+      "titleMatches": 22,
+      "bookTitleHits": 0,
+      "bookExamples": [],
+      "newspaperSearchHits": 4031,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Eling%C3%A5rd",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Eling%C3%A5rd"
     },
     {
       "city": "Fredrikstad",
       "name": "Kråkerøy",
       "photos": 36,
+      "titleMatches": 11,
       "bookTitleHits": 45,
       "bookExamples": [
         {
@@ -448,6 +907,7 @@
       "city": "Fredrikstad",
       "name": "Fredrikstad domkirke",
       "photos": 14,
+      "titleMatches": 11,
       "bookTitleHits": 2,
       "bookExamples": [
         {
@@ -468,6 +928,25 @@
       "newspaperSearchHits": 10459,
       "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Fredrikstad%20domkirke",
       "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Fredrikstad%20domkirke"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Fiskebrygga",
+      "photos": 11,
+      "titleMatches": 11,
+      "bookTitleHits": 1,
+      "bookExamples": [
+        {
+          "id": "8580c6ccd1a8d60e0e999eccd138e1c1",
+          "title": "Fra fiskebrygga til prekestolen",
+          "year": "1999",
+          "url": "https://www.nb.no/items/8580c6ccd1a8d60e0e999eccd138e1c1",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 26398,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Fiskebrygga",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Fiskebrygga"
     }
   ]
 }

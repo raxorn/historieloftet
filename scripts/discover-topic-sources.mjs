@@ -1,8 +1,7 @@
 import fs from 'node:fs';
 
 const audit=JSON.parse(fs.readFileSync('data/city-coverage-report.json','utf8'));
-const selected={Sarpsborg:['Hafslund','Borregaard','Sarpsfossen','Borgarsyssel'],Fredrikstad:['Gamlebyen','Kongsten','Kråkerøy','Fredrikstad domkirke']};
-const topics=audit.cities.flatMap(city=>city.namedPlaces.filter(place=>selected[city.city].includes(place.name)).map(place=>({city:city.city,name:place.name,photos:place.count})));
+const topics=audit.cities.flatMap(city=>city.namedPlaces.filter(place=>place.titleMatches>=9).map(place=>({city:city.city,name:place.name,photos:place.count,titleMatches:place.titleMatches})));
 
 async function search(name,media){
  const url=new URL('https://api.nb.no/catalog/v1/items');
@@ -27,6 +26,6 @@ for(const topic of topics){
  results.push(row);
  console.error(JSON.stringify({city:topic.city,name:topic.name,photos:topic.photos,bookTitleHits:row.bookTitleHits,newspaperSearchHits:row.newspaperSearchHits,bookExamples:candidates.length}));
 }
-const output={id:'topic-source-discovery-v1',fetchedAt:new Date().toISOString(),method:'Stikkprøve i Nasjonalbibliotekets åpne katalog for åtte navngitte steder. Boktall er søketreff med navnet i tittelen; utvalgte katalogposter er ikke innholdskontrollert. Avistall er søketreff i avisutgaver fra 1800–1999 og er verken antall artikler eller bekreftede forbindelser til fotografier. Søkene dekker ett navneoppslag per sted og kan mangle stavevarianter. Ingen avisutgaver er automatisk knyttet til enkeltbilder.',topics:results};
+const output={id:'topic-source-discovery-v2',fetchedAt:new Date().toISOString(),method:'Foreløpige søk i Nasjonalbibliotekets åpne katalog for navngitte steder som finnes i minst ni arkivtitler. Boktall er søketreff på navn i tittelen; katalogpostene er ikke innholdskontrollert. Avistall er søketreff i avisutgaver fra 1800–1999 og er verken antall artikler eller bekreftede forbindelser til fotografier. Søket dekker ett navneoppslag per sted og kan mangle stavevarianter. Ingen avisutgaver er automatisk knyttet til enkeltbilder.',topics:results};
 fs.writeFileSync('data/topic-source-discovery.json',JSON.stringify(output,null,2)+'\n');
 console.log(JSON.stringify({topics:results.length,output:'data/topic-source-discovery.json'}));
