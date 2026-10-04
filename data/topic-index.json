@@ -1,1440 +1,2125 @@
 {
-  "id": "topic-index-v2",
-  "method": "Foreløpig motivindeks fra arkivtitler i de kartlagte Sarpsborg- og Fredrikstad-postene før 2000. Den omfatter ikke alle bilder i Nasjonalbibliotekets samling. En navnelikhet er ikke en bekreftet identifikasjon av en bestemt bygning eller hendelse.",
+  "id": "topic-index-v3",
+  "method": "Foreløpig motivindeks fra arkivtitler og registrerte steds- og motivopplysninger i de kartlagte Sarpsborg- og Fredrikstad-postene før 2000. Den omfatter ikke alle bilder i Nasjonalbibliotekets samling. Et stedsnavn i arkivet er ikke en visuelt bekreftet identifikasjon av en bestemt bygning eller hendelse.",
   "topics": [
     {
       "id": "borregaard",
       "name": "Borregaard",
       "type": "Virksomhet og område",
-      "description": "Bilder der arkivtittelen nevner Borregaard, Borregård eller Borggaard. Fabrikker, hovedgård, tømmerlager og nærområde kan være ulike motiver."
+      "description": "Bilder der arkivtittel eller stedsopplysninger nevner Borregaard, Borregård eller Borggaard. Fabrikker, hovedgård, tømmerlager og nærområde kan være ulike motiver."
     },
     {
       "id": "sarpsfossen",
       "name": "Sarpsfossen",
       "type": "Foss og landskap",
-      "description": "Bilder der arkivtittelen nevner Sarpsfossen eller en navnevariant. Fotoene kan vise ulike utsnitt, bredder og tidspunkter."
+      "description": "Bilder der arkivtittel eller stedsopplysninger nevner Sarpsfossen, Sarpefossen eller en navnevariant. Fotoene kan vise ulike utsnitt, bredder og tidspunkter."
     }
   ],
   "photoTopics": [
     {
+      "photoId": "d8283d178ce89129bfd1ed7ab2124baa",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
       "photoId": "cce88c2f40a2878fdb7e00ed1df9c9f3",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4b2dbc7922a849a45086874680c9f96e",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "3e17eeff7d4374fbd006d97c76023c7b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "3e17eeff7d4374fbd006d97c76023c7b",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "8e962cae78727c4b6f21ddf3c4e3b9de",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "8e962cae78727c4b6f21ddf3c4e3b9de",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a3f777593976446b1898b93a9cfe499f",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "a3f777593976446b1898b93a9cfe499f",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "703a424a4b1799e5d82f24da61afc69a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "703a424a4b1799e5d82f24da61afc69a",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "d2b9d1defe86e1cc59ccafe117362c1b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "df6b312da09b11d13254b632ab199376",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "df6b312da09b11d13254b632ab199376",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "be726865105fb9c4e64cf1b7b029a727",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "3879514124077de17314863380d26538",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "cab716975d75c9567265658f34f60d38",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
-      "photoId": "4ddcf4a3240849dc3278eca3c0d53448",
+      "photoId": "0291d75e5924443467c4810296629c81",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "06d6d5803b3cbbc034a3925665697a82",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "0fc701c86b8121d7b9a6f06bc4588284",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "1d0b0b3524a7d6b21d09be0502e66129",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "2c8349d475f38171a06466ed81488236",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "3b709fe0d2cb5bf976d73b5d4c956713",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "42ba6f48d1f7e29a67af4c85f37a21ec",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "550b14692b83f64a67d73ba0502f151f",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "59a08f902a183aca69f6b2658bd97405",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "60fe9100a82f76c35cedf30309e502b5",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "6595df8e7665263dba2f2f4a03b9ec6a",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "750635d0fa828a388794d821ff9b9abf",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "7823dca04990adb6e1534e39d0e6d583",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "948a3301ba1df4fcf0c1f35121bfa537",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "9ba7c0c4601f5d717f5827fee17ff23f",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "a964b5b3bb5e0978a2322fb7bd864eba",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "c30ae8c00acbd3ca595c1b7c7ef307d9",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "cfba29308148fd12a3d3cc4ac8751734",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "dddced8eaad014c5b3255bc3266e1c32",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "eb671ea5a59acb7d9cef457b4b61e378",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "6f3791bec64c2ebab521ba2f54ebf150",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "000d3a1086d3a23403d336095be284e3",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "9ecb6b5c76f2180e856b10bdf7076b2b",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "cf994f66f3b84856303a880cecbb6dff",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "d0bcd201b35816fe9b914c54531449e1",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "f40db750ed22e57ff66eb63f321fb43e",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "082a12211d3ce0cb1243a9018673a773",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "28a6c53d686ba36f08baeb92ea6bb870",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "2b3bc3095af287fb59361f3f267f8515",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "794b3498a458d888fa2b15b0adebd00b",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "9ce075467c4150616139ace3c39a3d4d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e0cb878f3b05be61caf086415bea942d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e23a67f82cc1435a5e4f26c1c3e3a002",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f698eb28294f548bfaa86bda864830fd",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "ad8f9c82fd7d83d23a90ff548f79649f",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "cfa9278e63658a8a1f64ed8f2ee5c1e5",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "9a80021378ea5db8d50229152b1b415c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "02affa3826fab9fd84e758172d90773c",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "7c3a95ad15a64c829cae2e1d8c258ea6",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "ac30dc7728423eff4922dc77fc65f091",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "cd51828d9e3a152e8f357ab1fb6f3139",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "ef26b423989e531ef969196319aed4d3",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "17e96cff72ad014364ceac0f321b98ed",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "538db2c9c5f6e6c4f79e0d0464c7de87",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "ec56a0087daef13bfa618002ea9abca0",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "c317bdab38aa70c67d8347d8452d1011",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "d43c9a5a3735a44b339a947b4aafaa08",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "efad266cedcf6aa74b1af5d403eafe17",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a8fe10da3e5438de3c09320f5a223041",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "07df36512eeae8a8774a0e94a2973e4b",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d4dcb2418c815775bd528fea4acbeb8c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b040f6d7d5ab5260385cda06ef36e8c9",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d104875a3a3fbc523f1678ee0f2b8225",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "ccd9e8b36c519e6a98cb8cfdfb232fe0",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "c76ea36d486e6a04abda871bded8764e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4411e15bd3d97866a02b4d2a95ee6662",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a4edbacf2acbbf0580f9a4e77fed49a5",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b1f1d58e9baf461f62828bcba76cca90",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f867488fecd6dd17c2c80579277a615c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
-    },
-    {
-      "photoId": "742a6213e5b9be06a59aedd8f02a81cc",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "742a6213e5b9be06a59aedd8f02a81cc",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "06f57156bb6aafc6566c1ec1c5054c87",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6692cc695efcaf38b80c9bf2dfca02f7",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "ef08514724d2161bb5f75b6a061e1e98",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e4e22402cc6a243f0655c8a7f93261a9",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "df54b7fa8ac505f22895169b46f0d835",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "bb537fd9cb915d74070d9b779701285c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "eb5c1ed087b31ae5241d74abb78c7a0c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "eb5c1ed087b31ae5241d74abb78c7a0c",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "790979257554cfe2d89ca8440f88826c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d14b582d61e7ceb37cc8b32656a51997",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "d14b582d61e7ceb37cc8b32656a51997",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "6cffb816d6ca141e574aac1d99816269",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6d04cfe291af18c5db0859d1e05fd5d0",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "7e32925fdfe3e13bd59632d39da55d62",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "16ab6daa9a88a13e6062d628b63f0008",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "79309e0ea2a0326d30f63d7a84753bec",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "893e0cd371507b1b211d1110d08e5ef8",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a42326b97b4ae15a38467bdd6b7c9a2d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e0923548d0e3e4c4bbc0bbff4ca529ca",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "db5c5b2de045ac88f312cb0f18a61f72",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4c7726eddbecd64d50d183b493a84411",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "9f2c9be08251c457a53b907f810d4382",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "86585e952758790f0708c949111b4b28",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1341cbbd0787460cacef71f810af513e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1341cbbd0787460cacef71f810af513e",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "94acf1ca8f4bba8c1bf25b3ba68f65b5",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "94acf1ca8f4bba8c1bf25b3ba68f65b5",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8a0320f1a2583f7ed303d6f900d50173",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d4c6dbf04727b9d0705e69a5a9ea18da",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b76600f159ff697a3a7a0e8dd1641b8e",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "0514a63805c5c9cba9cc5c36cc4af7ef",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "af5fb7a363232c3ce3409ed47047dfb9",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a688656d2e2a9020197a9983cea23d9c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "35877d2f8380ab54d32e5e6c41960e13",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "47929459f2f4e3a8851a2abe9956bd5d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "40eae0318b599c51ac2c657a7e24e380",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "eb88c0681b22de884efac5f2ed030e2b",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "56cced917d339af56596114e21da568b",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8dc81f0bf4fcb729b83baede19862b5b",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1c0fa350d6192b85b54a109e723411af",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "9d7e8b632d53b394e899f1d72cdbca98",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "cf5e7b2e010acf36d9a70c256e886558",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "5c7bfad6d0472695504c90a39d164d00",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "140361186da90ce29a90eefe6e462752",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "336da279e133f481ad411ebcbda3af56",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "68b933211b0285488ae54c940ab2d93e",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "a467853bb404a5b401b6e822ac77ef5e",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "ae021500292bb846a0031acf19b39c74",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "de5e33462d623c8e932b14f36deef676",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "f1aa9654346d8137ff36f87cdaefc010",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "cb40a8c3fb95d9b1543aa049232cf935",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "3320b379170579ea210923c2252dae06",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "6557c3fdd673d13415dc7e693b2fa30e",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "79919128762148922eb77083c2e727ff",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "b630f7c42fab338e26effaa79a1fd2c8",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "bab490deba257d13564e8e5a91a4c5a9",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "e81f94a1ebfe6e117b21427b8e91ab1c",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a9571fb1ddded6b74375030ce919ddf6",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8890a44b578b454af83274bff4b59309",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8dff6b8677f85147947d5a332793080d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4624a6e82f54646cd950aa5e1bdf3579",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "00dc4c89f7698d76a60301f826be54c6",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d7e55783555f3218a52d233d79dc109c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "3a178b8868678163add5b0f68efa23f1",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "3e8f5996fe2eb58a172a4d2d1a1e7d3c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a077cd4394c3c235f6e0948c14e0ff66",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c1affc78cb2ae46e98de33e7208a400d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "5e370d1671e337f57957a502e102f558",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8122048f0f26f6773a2fdfd26e2a28ca",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "00c4d22a88a3706ae1fbe806a4d69d5d",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "2226ef1340710bdae432bcd1c7607f89",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "31d659bc49004890cb7e8e6e220b515a",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "29223a6e3f4f5ba8c1e4e80e7c480dad",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a84f6b365fb2dfc2be7d73bb6024960f",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "42203bded9234f1944f6549f9dd126d9",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b20870b1be349fc6b0c1466d0508d9e4",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "b20870b1be349fc6b0c1466d0508d9e4",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "c0531cd00c26754737ffb0e752213e51",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a1b070cd0aca442762844052a8146f48",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "7ef097fb72b9a033417690b6a8e4c13d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d36b902cb86834d00a1b5f367a278ed1",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e9d71bec602d8020d2d110d6efe12f9d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "000bdd881a2b9650ada9f9088f6a6e5e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "34c95d89c9d54f1e4f7c4f60f29eb714",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "34c95d89c9d54f1e4f7c4f60f29eb714",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "f2823d2c904b253e2ee732b9a79bf1ab",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "04d31a85563dd2f7afd52c192888147c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b6c1885e0ff5b75ad23c2012ee4b8cba",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "06c4a9472bdc0372d594aff72e9f54fb",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "fd5c65f6926d4c1e84f7f91bbaf119f2",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "90a0c5e59f64c3733144c479b9643d34",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "598aeb988a6f521d67676b96cf788e33",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "598aeb988a6f521d67676b96cf788e33",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "588f7a321c23130dcaec0e792c40f0e6",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "588f7a321c23130dcaec0e792c40f0e6",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "22963ce5111254590ba3a959d86ed3e9",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "22963ce5111254590ba3a959d86ed3e9",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "45b7ed3cf3140e9dab293d613d5feaae",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b39e986c778a1fa735b0d819a45e7218",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a2b28dbda636e330915fa88b1ef47017",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1e3696dfdc0d44f940b1c15684b1f614",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "be62f158e8ed2bf43eb8f0526b0a66d2",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "50c726be6d732f9f4f08508cbba4310f",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "0cd8a9220725637b77f4a4adfcb12207",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "0f899af1813115d2601c78ceb385e1b4",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d761c4e92e92907ca94b4f2382782523",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4b9d7d5ee234ad02c45e7d71f5fc9e5a",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e28f03fd7853f5b0557e281de47d0c28",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1c8c8c3ab903626bbe0d5a1806f07e42",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "29985b1cf6316cdd7d4259ac395c8a8c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1f35394408608a1626f958b79c45ca7c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a98f1583bbd5ea756e09ef3d8133fec9",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "538e6b8dd762cf81c33ecba56a49010e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c3434ab283d5047f38e8a688815de879",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b6dc31ab8e3ab9a35cacb3a3769f4dba",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "7bee1eec2e8a8ceb5331d8c80426d5c5",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a328c728cfdbee56d46ce13d8ce362f1",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b88086acb0e893e069de35c8dccd36d0",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "ea9ebc3c2ce1dba8c1d9ba4b3cf926d7",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "ea9ebc3c2ce1dba8c1d9ba4b3cf926d7",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "648c9af161d60b898d099df058ab9595",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "648c9af161d60b898d099df058ab9595",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "1b7b57eb1bc82aa3ed4ee6c5f289b0b5",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "1b7b57eb1bc82aa3ed4ee6c5f289b0b5",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "0fcaa1e89ed8f99317afbaca9e44164f",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "0fcaa1e89ed8f99317afbaca9e44164f",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "8776a0d03ce0dcda4b60a8ec5d0c9b64",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "bbc501fc577ab0bd9047ab7254f70c77",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "bbc501fc577ab0bd9047ab7254f70c77",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "13d7ee348e99ce8fec5138ee77827c62",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "39012d269c7819a131e24e94dfe1831e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "5fe8a47203758b9e1ce94c0dd4ee631b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6eb08e3edf2a611ab532aac338c52415",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c969db0d58db2c90b4d4cca2014bead6",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4eb7ab4b5f87e227bbf0c8f25b2f1a07",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "cc1b649e410b0f483cc070f9ca99ff2a",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6ea66c123eee04091db26944ce7ac0ec",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e941baa49b13193c446e4ca5ffe7e083",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "0f8dd5a0f004aa22045ca511d2c79224",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8c80c5f121589e870707f8f33eda456c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1b08094e5de461df7e1e65673f0f3869",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "334da12a0e733ea649f0e1e80115699c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "9194a7eca8c3e267bc2d1e1108459dde",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f3e182e6b7c3ce569e096577e47f34b8",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "985b265dfb9ca03f1b3f6366fdccbddc",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f105b4520f033a90e76f97686b18588f",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "65b8c59dce359b94a9f418d66085bd44",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "2c3abb76e91df7b0b611edef982ea36f",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f1f4f455570cea7ab21cf1d9b993a890",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "f1f4f455570cea7ab21cf1d9b993a890",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "519d803b9a2746eb2449a59644a27437",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "519d803b9a2746eb2449a59644a27437",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "6057692ef9fafc7cad306b58e51468a7",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "6057692ef9fafc7cad306b58e51468a7",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "d6636c108173389640e93ce23460aafa",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d6636c108173389640e93ce23460aafa",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "2f421a4a3101eb090bab9eabc0545118",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "e77c3865b9ceadd477379a36e2ecd301",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "e77c3865b9ceadd477379a36e2ecd301",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "b88e62fb593fe5d408d3d0c500c8c6a6",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b88e62fb593fe5d408d3d0c500c8c6a6",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "37bba1adc02224ec6fba90bdd06e8a1a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "37bba1adc02224ec6fba90bdd06e8a1a",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "359fca1ef152156150d28107dac1e985",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a4c81cf4fa0a48cd03fe00c6a1e955c4",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e3464352740d40d7a7e00d324a78d72c",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8b5ab913db34eb162b9200ab62e609e0",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "956d36de99b3c78ad7d11b95208d079b",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "33248f38f58fe58de2f8ea5611734913",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e5ee603a488fb58bf2ad6173d5cafff8",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "e5ee603a488fb58bf2ad6173d5cafff8",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "638f7d2c4fe1b5e69580836bac99b1ca",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "638f7d2c4fe1b5e69580836bac99b1ca",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a63e72470c6d349cb0d09ab9f7c65105",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f165635793fdcbc241d8c7489fd5f186",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "da607c694a4a20259ef72869c4dd91bf",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "65636ab08e87526e2b073ac95dcab027",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "65636ab08e87526e2b073ac95dcab027",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "7f2ce4604828a988763f5228937d4c7d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "7f2ce4604828a988763f5228937d4c7d",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "ceed57486f9662b1febd9586bcce7a09",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "ceed57486f9662b1febd9586bcce7a09",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "6e136435b9cc35b0fe637f9010304ab1",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "0b066076fc0c501ef7582864f3417572",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "eb18568d8dd38a959dca4ccc22b78061",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "eb18568d8dd38a959dca4ccc22b78061",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "05ff8718994aaa3c1c8db7d54303de73",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "05ff8718994aaa3c1c8db7d54303de73",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "7f6477a7a5c308e9fde1c237a8ee13ee",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e308c64dc2a0f0b84f9ddc70dac73cec",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
-    },
-    {
-      "photoId": "ee754960ae64274b3cf0045d3c74c095",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "4795730381c0bee2c6683c39e971977a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "4795730381c0bee2c6683c39e971977a",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "0530578e431adbab53b2ed6a3bef6e95",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "0530578e431adbab53b2ed6a3bef6e95",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "54780ca4b46e87ac504e9458a3ccafb3",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "54780ca4b46e87ac504e9458a3ccafb3",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "67b1ccbe774c9cb204800af479336783",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "67b1ccbe774c9cb204800af479336783",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "bd4d1eb1cf9a14aa6ab01d79e8745fde",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "bd4d1eb1cf9a14aa6ab01d79e8745fde",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "c8a003fb260c12417b8d373111aaa62c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "c8a003fb260c12417b8d373111aaa62c",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "089ba1bf9832c76f53760644c2b6ab5a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "089ba1bf9832c76f53760644c2b6ab5a",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "37b6e06379413d3c638a12b77894aec8",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "37b6e06379413d3c638a12b77894aec8",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "441a1afcd3f7c41a3c82ff71a8c31185",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "441a1afcd3f7c41a3c82ff71a8c31185",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "8e96dcab0b4e46b3dcbb90e35a9fb673",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "8e96dcab0b4e46b3dcbb90e35a9fb673",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a55d21cc7aba99aabc8477ecd462da8d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "a55d21cc7aba99aabc8477ecd462da8d",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "d4c1fccb883daf10ddd5a6667d27281e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "d4c1fccb883daf10ddd5a6667d27281e",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "da11740960bd5bfece717b63ef7b2849",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "da11740960bd5bfece717b63ef7b2849",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "f22f5a1e15386a2c71c6e70c776ffd40",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
-      "photoId": "efc81db0911f4dbd102f143782d0d166",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "photoId": "f22f5a1e15386a2c71c6e70c776ffd40",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "2a519b445b326eef4d3612e932a6a9cf",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6d14eca115c108f7517230666d69a16e",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6e240ccd6a5a9887b188e134d6345b0d",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "94e3f2adfabfa328af1ae2f9988b1dd9",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "1b1be4d637c96565f85d9936a1bd45cb",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "c0a6a93fd8b8ec914e0cd0cd5dab8ebd",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "036e1fed6177b5fea6ee0dc24eaa6442",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "71af941920f84ca4a61e87589cf8110a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b6e93e0d523832964bcca0aa71b58425",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "90f1a1c77925b59800ff22fba3de1d02",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d03e44ed34a26a4f23e1a71954c99825",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "d03e44ed34a26a4f23e1a71954c99825",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "e29a6121ed04a6dd2f50e032b5a93af7",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "e29a6121ed04a6dd2f50e032b5a93af7",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "610e016a2b461ff0a1df1295ddc9aab7",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c0dab33abe322509cdd274cf896caea8",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "a291cc6d7cd3d8c9ba9772dfb7e353fa",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "a291cc6d7cd3d8c9ba9772dfb7e353fa",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "0bc7fe49b3668c1695bedcc3de0486c5",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1e075a97173b7272dc6bb8274c2cada0",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "a4dc0f7a8377d0ef73cbfac8c9ebd704",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f6c622b258e7021390302469afb8c26b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "f6c622b258e7021390302469afb8c26b",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "223888dbb72a0d5d5c877a13ce8bbd99",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "223888dbb72a0d5d5c877a13ce8bbd99",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "7e26dc15dc3f97fa79836aca2cba0eaa",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "cbbfd82081147982168caec8a77dcb34",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "cbbfd82081147982168caec8a77dcb34",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "921076b9cc4874ee05821c5323cc379e",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "921076b9cc4874ee05821c5323cc379e",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "3288eb2e70d302250cfdf24acd56a8c5",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "3288eb2e70d302250cfdf24acd56a8c5",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "63a71092f800d2658c036e9140879c54",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "63a71092f800d2658c036e9140879c54",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c1c577f63f0d81fbcce61b5c1f8e9406",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c1c577f63f0d81fbcce61b5c1f8e9406",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f12d3cc97333cafdcd5f59e5bdda7407",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "f12d3cc97333cafdcd5f59e5bdda7407",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "b19254a3a497a7c48cdaa21ed93d416d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
-      "photoId": "552a61d9ad29d80f0372e0eb227b7e4b",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
-    },
-    {
-      "photoId": "afcb6cc8b0a5660fecf51ead7b45de26",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "photoId": "b19254a3a497a7c48cdaa21ed93d416d",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "e3c924072e272fa9b7696914add70839",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "6a0faec08b0257cf7de6d20f98e14ad1",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "46e48650e4c71e9daa6021fc8a885c25",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "46e48650e4c71e9daa6021fc8a885c25",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "130fc965871c48cd86cb2ca5c6547d54",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1d2bda498dc7bd98dbe865939c3032fd",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "e8a628d1eb9c6d6b6cf16c2264a01b4a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "2f7da5a811d6aca4430429a2880f218f",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "8f878b5e0481d29f559f7a039bf54bdd",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "dba74543e219a7b7e02c7db9c209ac91",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
-    },
-    {
-      "photoId": "3739934d7fb933beb717c5e83554cabc",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "7afa909680625fc642fe268d58a5a55b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "1125e134f0a18aa1c5f643e80b3b293f",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "1125e134f0a18aa1c5f643e80b3b293f",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "2244d6e4d974ce31543a1dc2cf3a466a",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "2244d6e4d974ce31543a1dc2cf3a466a",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "273a88e5dac23ac6695e239ccfa7a3bc",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "273a88e5dac23ac6695e239ccfa7a3bc",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "33bebd975c5a61c498892b21684202d4",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "33bebd975c5a61c498892b21684202d4",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "39d04a2878e09560ebd2d22b279edee6",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "39d04a2878e09560ebd2d22b279edee6",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "461722b3e755484cd5bf24975b3f3bfc",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "461722b3e755484cd5bf24975b3f3bfc",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "7b0905d3c5ce4852edd5b0f7bbb840d4",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "7b0905d3c5ce4852edd5b0f7bbb840d4",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "928da63d0e802667d1c9b6da331d982d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "928da63d0e802667d1c9b6da331d982d",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "93363e699b9e920cef629b99574e380d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "93363e699b9e920cef629b99574e380d",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "c3122fafeebb0498720b8668dd44e8fd",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "c3122fafeebb0498720b8668dd44e8fd",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "cfc0bd1cd7124a79d047d9fead053341",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "cfc0bd1cd7124a79d047d9fead053341",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "d2fcb8397e31943fffe6481c554772c9",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "d2fcb8397e31943fffe6481c554772c9",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "d6373af97ddb4f14f877275a931566a4",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "d6373af97ddb4f14f877275a931566a4",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "8e40d94ecdc75e0a9ffb83d1183d0d3d",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "30592af22dcc03d29ce927fd31d04968",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c31f14ed65c2c4ecbbad4a328462cce8",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "3a796437f8e1de341bb56e9a4957e0b4",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "3a796437f8e1de341bb56e9a4957e0b4",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "6148aee45c098fc467a9913859df8329",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "6148aee45c098fc467a9913859df8329",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "7c16de1542f57c13d8f04c4ea214fc14",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "7c16de1542f57c13d8f04c4ea214fc14",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "87d449049fa26cfb7679463694099795",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "87d449049fa26cfb7679463694099795",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "dfc256f9269af4807fd239780c87321b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "dfc256f9269af4807fd239780c87321b",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "ab28bde751ce1acdf2d5b9afd632ee66",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "df99623b862356c6e27660e90dae3d71",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "73f267e3fe01576c13c293334186f06f",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "81f083a9e22827b841806c8bea0724c8",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
-    },
-    {
-      "photoId": "740d76cdd1b35b951f23dbbb7bc528e0",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
-    },
-    {
-      "photoId": "3740c2adab5d7738d36f5f63781f609d",
-      "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "7363f38853df0db7fb2b8466a64b2773",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "005847f594e1503bedb7dbd568309f75",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "a266761a15e18eb490a9b5c1bc5b87d7",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "9f007eeffdf6c1c803ce25d8810bb04e",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "6d795affea17f90b1dac24a0df4f585c",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "86b8c03bd2732e58ab7e8f9b25c2e261",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "d5fd52d4c1715c46da3806ae98b7d494",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "2bf6933cba4930117b002d0858f033df",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "84040e692e965ec91e207b3397976f9b",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "592a4c4a1275ed3885db4703d5c03e91",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "5f9a3bba331763c47bada33ddb78a61a",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "23aee07ac382b0f1e960fdf0c39b88c5",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "fb39904d4ad14c16bf886674892d9086",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "c91e30510cbb9ac56e27031ca9fe43b8",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "c91e30510cbb9ac56e27031ca9fe43b8",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "b3c19eeb26c01c0db027b03b08af71f0",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "b3c19eeb26c01c0db027b03b08af71f0",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "23773131f6af022f0cfeed7c6c0592e3",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
-      "photoId": "4c0f8d8e1e05950100c18a0e50f70faf",
+      "photoId": "8a478ea673a538999910fd61e6e1e3d9",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "8a478ea673a538999910fd61e6e1e3d9",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "b8b11d0ef9e2146650717a2d671af119",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "b8b11d0ef9e2146650717a2d671af119",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "5ad358268cd085b68e1d4906a44bb91e",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
+    },
+    {
+      "photoId": "a6051d616f49b4f40d0c7e84a98d2b71",
+      "topicId": "borregaard",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "0f30645887adba8f1b1e72423d881efe",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "0f30645887adba8f1b1e72423d881efe",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "a0ffcd184ef3e1dbfd62527a6d03ebee",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     },
     {
       "photoId": "bf17fdb2a674c5c623d8c120180c333c",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "bf17fdb2a674c5c623d8c120180c333c",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "eae7fe51bb6a414a472068be7fafd2d7",
       "topicId": "borregaard",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
+    },
+    {
+      "photoId": "eae7fe51bb6a414a472068be7fafd2d7",
+      "topicId": "sarpsfossen",
+      "basis": "Navnet står i arkivets steds- eller motivopplysninger."
     },
     {
       "photoId": "14adc1440f179f104adb852e933e0298",
       "topicId": "sarpsfossen",
-      "basis": "Navnet forekommer i Nasjonalbibliotekets arkivtittel."
+      "basis": "Navnet står i arkivtittelen."
     }
   ]
 }
