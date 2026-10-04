@@ -1,0 +1,72 @@
+{
+  "createdAt": "2026-10-04T20:12:40.841Z",
+  "method": "Katalogkandidater fra lokale søkeuttrekk. Eksakt kilde-ID kobler Europeana til originalen der dette er mulig. Andre visuelle dubletter, faktisk motiv, rettigheter og avisartikler er ikke kontrollert.",
+  "cities": [
+    {
+      "city": "Sarpsborg",
+      "sourceCounts": {
+        "existingNbPhotoCatalog": 5041,
+        "nbTitlePhotos": 2266,
+        "nbBooks": 837,
+        "nbMaps": 46,
+        "digitaltMuseumReportedPhotographs": 15530,
+        "digitaltMuseumSampledPhotos": 1560,
+        "digitaltMuseumReportedArt": 62,
+        "digitaltMuseumSampledArt": 10,
+        "kulturminnesokRecords": 1207,
+        "kulturminnesokWithImages": 699,
+        "commonsFileSearchHits": 2005,
+        "europeanaBroadHits": 1246,
+        "europeanaTitleHits": 289,
+        "europeanaTitleLinksToDigitaltMuseum": 251,
+        "kartverketPlaceNames": 3178
+      },
+      "candidateCounts": {
+        "sourceOccurrences": 8234,
+        "exactSourceIdUnique": 8191,
+        "knownInExistingNbPhotoCatalog": 1382,
+        "exactIdOverlapGroups": 43,
+        "otherCandidateRecords": 6809
+      },
+      "notes": [
+        "Andre kandidater er ikke det samme som nye unike bilder: bøker, kart, kulturminner, usikre motiv og uoppdagede visuelle dubletter er inkludert.",
+        "DigitaltMuseum-tallet er antall rapporterte søkeresultater; demo-tilgangen ga bare et utvalg av postene.",
+        "Europeanas brede søk brukes bare til dekningstall på grunn av mange indirekte treff. Bare titteltreff er med som katalogkandidater.",
+        "Europeana-titteltreff som peker til DigitaltMuseum og finnes i DigitaltMuseum-utvalget: 26."
+      ]
+    },
+    {
+      "city": "Fredrikstad",
+      "sourceCounts": {
+        "existingNbPhotoCatalog": 3484,
+        "nbTitlePhotos": 1269,
+        "nbBooks": 1262,
+        "nbMaps": 70,
+        "digitaltMuseumReportedPhotographs": 20452,
+        "digitaltMuseumSampledPhotos": 2050,
+        "digitaltMuseumReportedArt": 947,
+        "digitaltMuseumSampledArt": 100,
+        "kulturminnesokRecords": 224,
+        "kulturminnesokWithImages": 18,
+        "commonsFileSearchHits": 3028,
+        "europeanaBroadHits": 3789,
+        "europeanaTitleHits": 473,
+        "europeanaTitleLinksToDigitaltMuseum": 406,
+        "kartverketPlaceNames": 463
+      },
+      "candidateCounts": {
+        "sourceOccurrences": 8494,
+        "exactSourceIdUnique": 8443,
+        "knownInExistingNbPhotoCatalog": 910,
+        "exactIdOverlapGroups": 51,
+        "otherCandidateRecords": 7533
+      },
+      "notes": [
+        "Andre kandidater er ikke det samme som nye unike bilder: bøker, kart, kulturminner, usikre motiv og uoppdagede visuelle dubletter er inkludert.",
+        "DigitaltMuseum-tallet er antall rapporterte søkeresultater; demo-tilgangen ga bare et utvalg av postene.",
+        "Europeanas brede søk brukes bare til dekningstall på grunn av mange indirekte treff. Bare titteltreff er med som katalogkandidater.",
+        "Europeana-titteltreff som peker til DigitaltMuseum og finnes i DigitaltMuseum-utvalget: 28."
+      ]
+    }
+  ]
+}

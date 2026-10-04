@@ -1,6 +1,10 @@
 import fs from 'node:fs';
+const cityArg=process.argv.indexOf('--city');
+const city=cityArg<0?'Sarpsborg':process.argv[cityArg+1];
+const municipalityNumbers={Sarpsborg:'3105',Fredrikstad:'3107'};
+if(!municipalityNumbers[city])throw Error('Bruk --city Sarpsborg eller --city Fredrikstad');
 const base='https://ws.geonorge.no/stedsnavn/v1/navn';
-const url=new URL(base);url.searchParams.set('knr','3105');url.searchParams.set('treffPerSide','500');url.searchParams.set('side','1');
+const url=new URL(base);url.searchParams.set('knr',municipalityNumbers[city]);url.searchParams.set('treffPerSide','500');url.searchParams.set('side','1');
 const firstResponse=await fetch(url,{signal:AbortSignal.timeout(20000)});
 if(!firstResponse.ok)throw Error(`${firstResponse.status}: ${(await firstResponse.text()).slice(0,500)}`);
 const first=await firstResponse.json();
@@ -15,5 +19,5 @@ for(let page=2;page<=Math.ceil(total/500);page++){
 }
 fs.mkdirSync('data/source-harvest',{recursive:true});
 const unique=[...new Map(names.map(item=>[`${item.stedsnummer}:${item.skrivemåte}`,item])).values()];
-fs.writeFileSync('data/source-harvest/sarpsborg-kartverket-names.json',JSON.stringify(unique)+'\n');
+fs.writeFileSync(`data/source-harvest/${city.toLowerCase()}-kartverket-names.json`,JSON.stringify(unique)+'\n');
 console.log(JSON.stringify({reported:total,returned:names.length,saved:unique.length}));

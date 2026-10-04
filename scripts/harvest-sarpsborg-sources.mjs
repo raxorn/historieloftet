@@ -1,5 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
+const cityArg=process.argv.indexOf('--city');
+const city=cityArg<0?'Sarpsborg':process.argv[cityArg+1];
+if(!['Sarpsborg','Fredrikstad'].includes(city))throw Error('Bruk --city Sarpsborg eller --city Fredrikstad');
+const slug=city.toLocaleLowerCase('nb-NO');
 
 const destination='data/source-harvest';
 fs.mkdirSync(destination,{recursive:true});
@@ -23,7 +27,7 @@ async function pages(total,pageSize,load){
  }
  return result;
 }
-function save(name,records){fs.writeFileSync(path.join(destination,`sarpsborg-${name}.json`),JSON.stringify(records)+'\n');console.error(`${name}: ${records.length} saved`)}
+function save(name,records){fs.writeFileSync(path.join(destination,`${slug}-${name}.json`),JSON.stringify(records)+'\n');console.error(`${city} ${name}: ${records.length} saved`)}
 
 async function digitaltMuseum(){
  const apiKey=process.env.DIMU_API_KEY||'demo';
@@ -31,7 +35,7 @@ async function digitaltMuseum(){
  const queries=[['photographs','Photograph'],['fineart','Fineart'],['architecture','Architecture'],['buildings','Building']];
  const all=[];const counts={};
  for(const [label,type] of queries){
-  const makeUrl=(start,rows)=>{const url=new URL('https://api.dimu.org/api/solr/select');url.searchParams.set('q','Sarpsborg');url.searchParams.set('fq',`artifact.type:${type}`);url.searchParams.set('wt','json');url.searchParams.set('rows',String(rows));url.searchParams.set('start',String(start));url.searchParams.set('api.key',apiKey);return url};
+  const makeUrl=(start,rows)=>{const url=new URL('https://api.dimu.org/api/solr/select');url.searchParams.set('q',city);url.searchParams.set('fq',`artifact.type:${type}`);url.searchParams.set('wt','json');url.searchParams.set('rows',String(rows));url.searchParams.set('start',String(start));url.searchParams.set('api.key',apiKey);return url};
   const first=await getJson(makeUrl(0,1));const total=first.response?.numFound||0;
   // Demo responses contain at most ten records. Sample at 100-record intervals;
   // with a full key, traverse every page instead.
@@ -45,7 +49,7 @@ async function digitaltMuseum(){
 }
 
 async function nationalLibrary(){
- const queries=[['photos_title','bilder','title:Sarpsborg'],['books_title','bøker','title:Sarpsborg'],['books_subject','bøker','subject:Sarpsborg'],['maps_title','kart','title:Sarpsborg']];
+ const queries=[['photos_title','bilder',`title:${city}`],['books_title','bøker',`title:${city}`],['books_subject','bøker',`subject:${city}`],['maps_title','kart',`title:${city}`]];
  const out={};const counts={};
  for(const [label,media,q] of queries){
   const makeUrl=(page,size)=>{const url=new URL('https://api.nb.no/catalog/v1/items');url.searchParams.set('q',q);url.searchParams.set('size',String(size));url.searchParams.set('page',String(page));url.searchParams.append('filter',`mediatype:${media}`);return url};
@@ -62,18 +66,18 @@ async function nationalLibrary(){
 }
 
 async function culturalHeritage(){
- const makeUrl=offset=>{const url=new URL('https://api.ra.no/brukerminner/collections/brukerminner/items');url.searchParams.set('f','json');url.searchParams.set('limit','1000');url.searchParams.set('offset',String(offset));url.searchParams.set('filter',"kommune='Sarpsborg'");return url};
+ const makeUrl=offset=>{const url=new URL('https://api.ra.no/brukerminner/collections/brukerminner/items');url.searchParams.set('f','json');url.searchParams.set('limit','1000');url.searchParams.set('offset',String(offset));url.searchParams.set('filter',`kommune='${city}'`);return url};
  const first=await getJson(makeUrl(0));const total=first.numberMatched||0;
  const features=[...first.features];
  for(let offset=features.length;offset<total;offset+=1000){const body=await getJson(makeUrl(offset));features.push(...body.features);if(!body.features.length)break}
- const records=[...new Map(features.map(item=>[item.id,{id:item.id,title:item.properties?.tittel||'',description:item.properties?.beskrivelse||'',municipality:item.properties?.kommune||'',coordinates:item.geometry?.coordinates||null,images:(item.properties?.bilder||[]).map(image=>({url:image.url,license:image.lisens,credit:image.fotograf})),url:item.properties?.linkkulturminnesok||''}])).values()].filter(item=>item.municipality==='Sarpsborg');
+ const records=[...new Map(features.map(item=>[item.id,{id:item.id,title:item.properties?.tittel||'',description:item.properties?.beskrivelse||'',municipality:item.properties?.kommune||'',coordinates:item.geometry?.coordinates||null,images:(item.properties?.bilder||[]).map(image=>({url:image.url,license:image.lisens,credit:image.fotograf})),url:item.properties?.linkkulturminnesok||''}])).values()].filter(item=>item.municipality===city);
  save('kulturminnesok',records);return {reported:total,saved:records.length,withImages:records.filter(item=>item.images.length).length};
 }
 
 async function commons(){
  const records=[];let offset=0,total=0;
  while(true){
-  const url=new URL('https://commons.wikimedia.org/w/api.php');url.searchParams.set('action','query');url.searchParams.set('list','search');url.searchParams.set('srsearch','Sarpsborg');url.searchParams.set('srnamespace','6');url.searchParams.set('srlimit','500');url.searchParams.set('sroffset',String(offset));url.searchParams.set('format','json');
+  const url=new URL('https://commons.wikimedia.org/w/api.php');url.searchParams.set('action','query');url.searchParams.set('list','search');url.searchParams.set('srsearch',city);url.searchParams.set('srnamespace','6');url.searchParams.set('srlimit','500');url.searchParams.set('sroffset',String(offset));url.searchParams.set('format','json');
   const body=await getJson(url);total=body.query?.searchinfo?.totalhits||total;
   const batch=(body.query?.search||[]).map(item=>({id:item.pageid,title:item.title,url:`https://commons.wikimedia.org/wiki/${encodeURIComponent(item.title.replaceAll(' ','_'))}`}));
   records.push(...batch);offset+=batch.length;if(!body.continue||!batch.length)break;
@@ -81,9 +85,9 @@ async function commons(){
  save('commons',records);return {reported:total,saved:records.length};
 }
 
-const summary={fetchedAt:new Date().toISOString(),scope:'Sarpsborg; metadata only, no media files downloaded. Search result does not prove that a work depicts the city.',sources:{}};
+const summary={fetchedAt:new Date().toISOString(),scope:`${city}; metadata only, no media files downloaded. Search result does not prove that a work depicts the city.`,sources:{}};
 for(const [name,task] of [['digitaltmuseum',digitaltMuseum],['nb',nationalLibrary],['kulturminnesok',culturalHeritage],['commons',commons]]){
  try{summary.sources[name]=await task()}catch(error){summary.sources[name]={error:String(error)};console.error(`${name}: ${error}`)}
- fs.writeFileSync(path.join(destination,'sarpsborg-summary.json'),JSON.stringify(summary,null,2)+'\n');
+ fs.writeFileSync(path.join(destination,`${slug}-summary.json`),JSON.stringify(summary,null,2)+'\n');
 }
 console.log(JSON.stringify(summary));

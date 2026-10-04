@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-10-04T20:02:24.829Z",
+  "scope": "Fredrikstad; metadata only, no media files downloaded. Search result does not prove that a work depicts the city.",
+  "sources": {
+    "digitaltmuseum": {
+      "counts": {
+        "photographs": {
+          "reported": 20452,
+          "saved": 2050,
+          "mode": "sampled"
+        },
+        "fineart": {
+          "reported": 947,
+          "saved": 100,
+          "mode": "sampled"
+        },
+        "architecture": {
+          "reported": 14,
+          "saved": 10,
+          "mode": "sampled"
+        },
+        "buildings": {
+          "reported": 8,
+          "saved": 8,
+          "mode": "sampled"
+        }
+      },
+      "totalUnique": 2168
+    },
+    "nb": {
+      "counts": {
+        "photos_title": {
+          "reported": 1269,
+          "saved": 1269
+        },
+        "books_title": {
+          "reported": 681,
+          "saved": 681
+        },
+        "books_subject": {
+          "reported": 1002,
+          "saved": 1002
+        },
+        "maps_title": {
+          "reported": 70,
+          "saved": 70
+        }
+      },
+      "uniqueBooks": 1262
+    },
+    "kulturminnesok": {
+      "reported": 224,
+      "saved": 224,
+      "withImages": 18
+    },
+    "commons": {
+      "reported": 3028,
+      "saved": 3028
+    }
+  }
+}

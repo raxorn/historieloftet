@@ -12,6 +12,21 @@ Node 22.13+ og npm. Installer med `npm ci`, bygg med `npm run build`, og start m
 
 Opprett `.env.local` i prosjektmappen og legg inn `EUROPEANA_API_KEY=din_nye_nøkkel`. Filen er ignorert av Git; ikke legg nøkkelen i kildekoden eller kommandolinjen. Kjør `npm run harvest:europeana` for et første uttrekk på 100 Sarpsborg-treff. `npm run harvest:europeana -- --query Fredrikstad --limit 200` bruker et annet søk. Resultatet lagres lokalt i `data/source-harvest/europeana-<søkeord>.json`, som også ignoreres av Git. Skriptet henter katalogmetadata, ikke bildefiler, og treffene må kontrolleres før de knyttes til et sted eller publiseres. Nøkkelen sendes i `X-Api-Key`-headeren.
 
+### Kildekandidater for Sarpsborg og Fredrikstad
+
+`node scripts/harvest-sarpsborg-sources.mjs --city Fredrikstad` henter katalogmetadata fra Nasjonalbiblioteket, et utvalg fra DigitaltMuseum med demo-tilgang, kommuneavgrensede registreringer i Kulturminnesøk og filnavntreff fra Wikimedia Commons. Bruk `--city Sarpsborg` for å oppdatere den andre byen. Europeana hentes separat med lokal nøkkel:
+
+```
+npm run harvest:europeana -- --query Sarpsborg --limit 5000
+npm run harvest:europeana -- --query proxy_dc_title:Sarpsborg --limit 5000
+npm run harvest:europeana -- --query Fredrikstad --limit 5000
+npm run harvest:europeana -- --query proxy_dc_title:Fredrikstad --limit 5000
+node scripts/build-source-candidates.mjs
+node scripts/check-source-candidates.mjs
+```
+
+Byggeskriptet skriver en normalisert kandidatfil per by i `data/source-candidates/` og en kompakt rapport i `data/source-coverage-report.json`. Europeana-uttrekkene og nøkkelen er ignorert av Git, mens de normaliserte kandidatene og dekningstallene versjoneres. Europeana og DigitaltMuseum slås bare sammen når originalens eksakte objekt-ID kan leses fra lenken. Resten kan fortsatt være dubletter. Verken katalogtreff, rettighetsfelt eller stedsnavn er en kontroll av hva et bilde faktisk viser. Ingen bildefiler lastes ned av disse skriptene.
+
 - Nasjonalbibliotekets katalog: levende søk, medie- og årsfiltre, tilgangsmerking. Kun forhåndsvisninger merket public domain og fri nettilgang vises.
 - Internet Archive: levende søk og tilgangssjekk mot metadata og filens HEAD-respons. Lydavspilling krever en tilgjengelig MP3 og en oppgitt Creative Commons-lisens. Originalen er alltid lenket.
 - DigitaltMuseum: direkte søkelenker fungerer uten nøkkel. Serveradapteren er klargjort for `DIMU_API_KEY`, men er ikke testet med en ordinær nøkkel. Testnøkkelen brukes ikke i produksjon. Sett nøkkelen som en hemmelig miljøvariabel i Sites før adapteren aktiveres.
