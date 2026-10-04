@@ -30,3 +30,14 @@ for(const license of ['ccby','ccbync','ccbysa','cc0']){
 }
 for(const license of ['bokhylla','unknown'])assert.equal(nbItem({...record,accessInfo:{...open,isPublicDomain:false,license}}).inlineReadable,false);
 assert.equal(nbItem({...record,metadata:{...record.metadata,originInfo:{issued:'19500828'}}}).year,'28.08.1950');
+
+import {parsePeriod,periodFilter,periodLabel} from '../lib/period.ts';
+assert.equal(periodFilter('1900-1999'),'year:[1900 TO 1999]');
+assert.equal(periodFilter('1910-1919'),'year:[1910 TO 1919]');
+assert.equal(periodFilter('1913'),'year:1913');
+assert.equal(periodFilter('undated'),'NOT year:[* TO *]');
+assert.equal(periodFilter(''),'');
+for(const value of ['1919-1910','1900 OR *:*','19','2100','1900-'])assert.equal(parsePeriod(value),null);
+assert.equal(periodLabel('1900'),'1900');
+assert.equal(periodLabel('1900-1999'),'1900-tallet (1900–1999)');
+console.log('Century, decade, exact year, undated and invalid period checks passed.');

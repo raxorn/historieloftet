@@ -29,3 +29,9 @@ Tilfeldig skuff velger mellom seks søkespor. Søk returnerer 12 treff per kilde
 - https://archive.org/developers/
 
 Publisering følger Sites, med prosjektidentitet i `.openai/hosting.json`. Den nye nettsiden er privat for eieren.
+
+
+## Tidsperioder og fortsettende bildeblading
+Årfilteret støtter enkeltår, intervaller (1900-1999) og undated. Periodevelgeren bevarer det aktive søket og øvrige filtre. Arkivets indekserte år brukes; omtrentlige metadata-intervaller kan derfor ikke alltid matches ved overlapp.
+
+NB bruker searchafter fra første forespørsel, med tom searchAfterId ved start og siste returnerte ID ved fortsettelse. Dette gir samme ID-sortering gjennom hele søket og unngår vanlig pagineringsgrense. Ikke bland relevanssorterte /items-resultater med searchafter. Hver kilde har egen sideteller; lastede resultater beholdes og duplikater fjernes. Bildeviseren henter flere grupper ved behov. Feil avanserer ikke sidetelleren, og søkebytte avbryter utdaterte forespørsler.
