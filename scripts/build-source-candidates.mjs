@@ -34,6 +34,7 @@ for(const city of cities){
  const dm=read(`${sourcePath}${slug}-digitaltmuseum.json`);
  const heritage=read(`${sourcePath}${slug}-kulturminnesok.json`);
  const commons=read(`${sourcePath}${slug}-commons.json`);
+ const localHistory=read(`${sourcePath}${slug}-lokalhistoriewiki.json`);
  const placeNames=read(`${sourcePath}${slug}-kartverket-names.json`);
  const euroTitle=read(`${sourcePath}europeana-proxy-dc-title-${slug}.json`);
  const euroBroad=read(`${sourcePath}europeana-${slug}.json`);
@@ -46,6 +47,7 @@ for(const city of cities){
  add('DigitaltMuseum',dm,item=>({workKey:`dimu:${item.id}`,sourceId:item.id,type:item.type==='Photograph'?'photo':item.type==='Fineart'?'art':'object',title:item.title,year:item.year,url:item.url,matchBasis:'Utvalg fra bredt søk',rights:item.license,place:item.place||null,mediaAvailable:Boolean(item.image)}));
  add('Kulturminnesøk',heritage,item=>({workKey:`heritage:${item.id}`,sourceId:item.id,type:'heritage',title:item.title,year:null,url:item.url,matchBasis:'Registrert i kommunen; fotografisk motiv er ikke bekreftet',rights:item.images.map(image=>image.license).filter(Boolean),place:item.municipality,coordinates:item.coordinates,imageCount:item.images.length}));
  add('Wikimedia Commons',commons,item=>({workKey:`commons:${item.id}`,sourceId:String(item.id),type:'image',title:item.title,year:null,url:item.url,matchBasis:'Byen i søket mot filnavn; avbildet sted uavklart',rights:null}));
+ add('Lokalhistoriewiki',localHistory.records,item=>({workKey:`localhistory:${item.pageId}`,sourceId:String(item.pageId),type:'article',title:item.title,year:null,url:item.url,matchBasis:item.matchBasis,rights:null}));
  add('Europeana',euroTitle.records,item=>({workKey:sourceKey(item.sourceUrl)||`europeana:${item.id}`,sourceId:item.id,type:item.type==='IMAGE'?'image':String(item.type||'other').toLowerCase(),title:item.title,year:item.year,url:item.europeanaUrl,originUrl:item.sourceUrl,matchBasis:'Byen i Europeana-tittel; avbildet sted uavklart',rights:item.rights,mediaAvailable:Boolean(item.preview)}));
 
  const works=new Map();
@@ -68,7 +70,8 @@ for(const city of cities){
   kulturminnesokWithImages:heritage.filter(item=>item.images.length).length,
   commonsFileSearchHits:commons.length,europeanaBroadHits:euroBroad.saved,
   europeanaTitleHits:euroTitle.saved,europeanaTitleLinksToDigitaltMuseum:europeanaLinkedToDigitaltMuseum,
-  kartverketPlaceNames:placeNames.length
+  kartverketPlaceNames:placeNames.length,
+  lokalhistoriewikiArticleSearchHits:localHistory.records.length
  },candidateCounts:{
   sourceOccurrences:records.length,exactSourceIdUnique:candidates.length,
   knownInExistingNbPhotoCatalog:candidates.filter(item=>item.knownInPhotoCatalog).length,
@@ -78,6 +81,7 @@ for(const city of cities){
   'Andre kandidater er ikke det samme som nye unike bilder: bøker, kart, kulturminner, usikre motiv og uoppdagede visuelle dubletter er inkludert.',
   'DigitaltMuseum-tallet er antall rapporterte søkeresultater; demo-tilgangen ga bare et utvalg av postene.',
   'Europeanas brede søk brukes bare til dekningstall på grunn av mange indirekte treff. Bare titteltreff er med som katalogkandidater.',
+  'Lokalhistoriewiki er oppslag som kan gi historisk kontekst, ikke nye bilder. Stedstilknytningen må kontrolleres.',
   'Europeana-titteltreff som peker til DigitaltMuseum og finnes i DigitaltMuseum-utvalget: '+europeanDmuInLocalSample+'.'
  ]};
  fs.mkdirSync('data/source-candidates',{recursive:true});

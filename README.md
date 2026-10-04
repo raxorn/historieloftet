@@ -21,11 +21,12 @@ npm run harvest:europeana -- --query Sarpsborg --limit 5000
 npm run harvest:europeana -- --query proxy_dc_title:Sarpsborg --limit 5000
 npm run harvest:europeana -- --query Fredrikstad --limit 5000
 npm run harvest:europeana -- --query proxy_dc_title:Fredrikstad --limit 5000
+node scripts/harvest-localhistory.mjs
 node scripts/build-source-candidates.mjs
 node scripts/check-source-candidates.mjs
 ```
 
-Byggeskriptet skriver en normalisert kandidatfil per by i `data/source-candidates/` og en kompakt rapport i `data/source-coverage-report.json`. Europeana-uttrekkene og nøkkelen er ignorert av Git, mens de normaliserte kandidatene og dekningstallene versjoneres. Europeana og DigitaltMuseum slås bare sammen når originalens eksakte objekt-ID kan leses fra lenken. Resten kan fortsatt være dubletter. Verken katalogtreff, rettighetsfelt eller stedsnavn er en kontroll av hva et bilde faktisk viser. Ingen bildefiler lastes ned av disse skriptene.
+Byggeskriptet skriver en normalisert kandidatfil per by i `data/source-candidates/` og en kompakt rapport i `data/source-coverage-report.json`. Europeana-uttrekkene og nøkkelen er ignorert av Git, mens de normaliserte kandidatene og dekningstallene versjoneres. Lokalhistoriewiki-uttrekket gir mulige historiske oppslag, ikke nye bilder. Europeana og DigitaltMuseum slås bare sammen når originalens eksakte objekt-ID kan leses fra lenken. Resten kan fortsatt være dubletter. Verken katalogtreff, rettighetsfelt eller stedsnavn er en kontroll av hva et bilde faktisk viser. Ingen bildefiler lastes ned av disse skriptene.
 
 - Nasjonalbibliotekets katalog: levende søk, medie- og årsfiltre, tilgangsmerking. Kun forhåndsvisninger merket public domain og fri nettilgang vises.
 - Internet Archive: levende søk og tilgangssjekk mot metadata og filens HEAD-respons. Lydavspilling krever en tilgjengelig MP3 og en oppgitt Creative Commons-lisens. Originalen er alltid lenket.

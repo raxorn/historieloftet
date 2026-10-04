@@ -9,6 +9,7 @@ const sourceLinks=[
  {name:'Europeana',url:'https://www.europeana.eu/en/search'},
  {name:'Kulturminnesøk',url:'https://www.kulturminnesok.no/'},
  {name:'Wikimedia Commons',url:'https://commons.wikimedia.org/wiki/Main_Page'},
+ {name:'Lokalhistoriewiki',url:'https://lokalhistoriewiki.no/'},
 ];
 
 export default function SourcesPage(){
@@ -27,6 +28,7 @@ export default function SourcesPage(){
      <article><h4>Europeana</h4><p>{number(city.sourceCounts.europeanaTitleHits)} titteltreff · {number(city.sourceCounts.europeanaBroadHits)} brede treff</p><p>{number(city.sourceCounts.europeanaTitleLinksToDigitaltMuseum)} av titteltreffene peker til DigitaltMuseum. Brede treff kan omtale byen uten å vise den.</p></article>
      <article><h4>Kulturminnesøk</h4><p>{number(city.sourceCounts.kulturminnesokRecords)} registreringer · {number(city.sourceCounts.kulturminnesokWithImages)} med bilder</p><p>Registreringene er knyttet til kommunen, men de er ikke automatisk gamle bilder av byen.</p></article>
      <article><h4>Wikimedia Commons</h4><p>{number(city.sourceCounts.commonsFileSearchHits)} filnavntreff</p><p>Avbildet sted og filens egen lisens er ennå ikke kontrollert.</p></article>
+     <article><h4>Lokalhistoriewiki</h4><p>{number(city.sourceCounts.lokalhistoriewikiArticleSearchHits)} artikkeltreff</p><p>Disse kan gi stedshistorie og navn å koble til bildene. De er ikke nye bildeposter; relevansen må kontrolleres.</p></article>
     </div>
    </section>)}
    <section className="coverage-next"><h2>Hva betyr «nye kandidater»?</h2><p>Kandidatene er lagret med kilde-ID, original-lenke, tittel, type, datering og oppgitt rettighetsinformasjon. Vi slår sammen poster som peker til nøyaktig samme kilde-ID. Ulike skanninger og kopier av samme motiv kan fortsatt stå hver for seg. Vi har ikke vist disse som nye bilder på forsiden, og vi har ikke verifisert avisartikler eller bilde–bok-koblinger.</p><p>Høyeste prioritet videre er å kontrollere motiv og rettigheter, hente resten av DigitaltMuseums resultater med egnet tilgang og undersøke lokale samlinger som bare delvis ligger på nett.</p><div className="coverage-links">{sourceLinks.map(source=><a href={source.url} key={source.name} target="_blank" rel="noopener noreferrer">{source.name} <ExternalLink size={14}/></a>)}</div></section>

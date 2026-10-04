@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-04T20:12:40.841Z",
+  "createdAt": "2026-10-04T20:20:54.190Z",
   "method": "Katalogkandidater fra lokale søkeuttrekk. Eksakt kilde-ID kobler Europeana til originalen der dette er mulig. Andre visuelle dubletter, faktisk motiv, rettigheter og avisartikler er ikke kontrollert.",
   "cities": [
     {
@@ -19,19 +19,21 @@
         "europeanaBroadHits": 1246,
         "europeanaTitleHits": 289,
         "europeanaTitleLinksToDigitaltMuseum": 251,
-        "kartverketPlaceNames": 3178
+        "kartverketPlaceNames": 3178,
+        "lokalhistoriewikiArticleSearchHits": 86
       },
       "candidateCounts": {
-        "sourceOccurrences": 8234,
-        "exactSourceIdUnique": 8191,
+        "sourceOccurrences": 8320,
+        "exactSourceIdUnique": 8277,
         "knownInExistingNbPhotoCatalog": 1382,
         "exactIdOverlapGroups": 43,
-        "otherCandidateRecords": 6809
+        "otherCandidateRecords": 6895
       },
       "notes": [
         "Andre kandidater er ikke det samme som nye unike bilder: bøker, kart, kulturminner, usikre motiv og uoppdagede visuelle dubletter er inkludert.",
         "DigitaltMuseum-tallet er antall rapporterte søkeresultater; demo-tilgangen ga bare et utvalg av postene.",
         "Europeanas brede søk brukes bare til dekningstall på grunn av mange indirekte treff. Bare titteltreff er med som katalogkandidater.",
+        "Lokalhistoriewiki er oppslag som kan gi historisk kontekst, ikke nye bilder. Stedstilknytningen må kontrolleres.",
         "Europeana-titteltreff som peker til DigitaltMuseum og finnes i DigitaltMuseum-utvalget: 26."
       ]
     },
@@ -52,19 +54,21 @@
         "europeanaBroadHits": 3789,
         "europeanaTitleHits": 473,
         "europeanaTitleLinksToDigitaltMuseum": 406,
-        "kartverketPlaceNames": 463
+        "kartverketPlaceNames": 463,
+        "lokalhistoriewikiArticleSearchHits": 165
       },
       "candidateCounts": {
-        "sourceOccurrences": 8494,
-        "exactSourceIdUnique": 8443,
+        "sourceOccurrences": 8659,
+        "exactSourceIdUnique": 8608,
         "knownInExistingNbPhotoCatalog": 910,
         "exactIdOverlapGroups": 51,
-        "otherCandidateRecords": 7533
+        "otherCandidateRecords": 7698
       },
       "notes": [
         "Andre kandidater er ikke det samme som nye unike bilder: bøker, kart, kulturminner, usikre motiv og uoppdagede visuelle dubletter er inkludert.",
         "DigitaltMuseum-tallet er antall rapporterte søkeresultater; demo-tilgangen ga bare et utvalg av postene.",
         "Europeanas brede søk brukes bare til dekningstall på grunn av mange indirekte treff. Bare titteltreff er med som katalogkandidater.",
+        "Lokalhistoriewiki er oppslag som kan gi historisk kontekst, ikke nye bilder. Stedstilknytningen må kontrolleres.",
         "Europeana-titteltreff som peker til DigitaltMuseum og finnes i DigitaltMuseum-utvalget: 28."
       ]
     }
