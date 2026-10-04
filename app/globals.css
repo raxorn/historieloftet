@@ -19,3 +19,5 @@ main{max-width:1880px}.catalog-shell{display:grid;grid-template-columns:minmax(0
 .sort-control{float:right;min-width:150px;margin:0 0 20px 18px;font-size:13px}.year-heading{grid-column:1 / -1;font:32px Georgia,serif;margin:18px 0 0;padding-bottom:10px;border-bottom:1px solid #c9c5b7}.year-heading:first-child{margin-top:0}@media(max-width:600px){.sort-control{float:none;margin:0 0 20px;max-width:200px}}
 
 .place-picker{border-top:1px solid #d7d2c5;margin-top:16px;padding-top:20px;font-size:13px}.place-picker button{border:1px solid #c9c5b7;background:transparent;border-radius:3px;padding:8px;text-align:left}.place-picker button[aria-pressed=true]{background:#763b36;color:white}.place-options{display:grid;gap:5px;max-height:340px;overflow:auto;padding:4px}.place-options button{min-height:40px}.place-picker .small{display:block}
+
+.browse-panel .tabs{border-top:0}.active-theme{display:inline-flex;align-items:center;gap:8px;margin:0 0 12px;padding:6px 10px;background:#eee9dd;border:1px solid #c9c5b7;border-radius:3px;font-size:13px}

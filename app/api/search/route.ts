@@ -6,7 +6,6 @@ import {nbItem,iaItem,json,literal,str} from '../../../lib/archive';
 export async function GET(request:Request){
  const p=new URL(request.url).searchParams,q=(p.get('q')||'').trim().slice(0,150),year=p.get('year')||'',kind=p.get('kind')||'all',source=p.get('source')||'all',page=Math.max(0,Math.floor(Number(p.get('page'))||0));
  const place=p.get('place')||'';if(!resolvePlace(place))return Response.json({error:'Ugyldig sted.'},{status:400});
- if(!q&&!year&&!place)return Response.json({error:'Skriv et sted, tema eller årstall.'},{status:400});
  if(!parsePeriod(year))return Response.json({error:'Velg et gyldig år eller tidsrom.'},{status:400});
  const dateFilter=periodFilter(year),nbAfter=p.get('nbAfter')||'';
  if(nbAfter&&!/^[a-f0-9]{32}$/.test(nbAfter))return Response.json({error:'Ugyldig fortsettelse.'},{status:400});
