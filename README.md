@@ -35,3 +35,9 @@ Publisering følger Sites, med prosjektidentitet i `.openai/hosting.json`. Den n
 Årfilteret støtter enkeltår, intervaller (1900-1999) og undated. Periodevelgeren bevarer det aktive søket og øvrige filtre. Arkivets indekserte år brukes; omtrentlige metadata-intervaller kan derfor ikke alltid matches ved overlapp.
 
 NB bruker searchafter fra første forespørsel, med tom searchAfterId ved start og siste returnerte ID ved fortsettelse. Dette gir samme ID-sortering gjennom hele søket og unngår vanlig pagineringsgrense. Ikke bland relevanssorterte /items-resultater med searchafter. Hver kilde har egen sideteller; lastede resultater beholdes og duplikater fjernes. Bildeviseren henter flere grupper ved behov. Feil avanserer ikke sidetelleren, og søkebytte avbryter utdaterte forespørsler.
+
+
+## Kronologi og steder
+Resultater sorteres etter arkivets indekserte år, med udaterte treff sist i begge retninger. NB traverseres år for år fra årsfacetter og bruker ID-cursor innen hvert år, slik at sidegrensen ikke kutter tidslinjen. IA sorteres etter year og identifier; udaterte poster hentes separat til slutt. Klienten fletter kildekøene med ett kjent neste treff fra hver kilde før et resultat vises. Det hindrer at senere innlastinger flytter bilder bakover på tidslinjen. Kildekøene oppdateres først etter en vellykket innlasting.
+
+Stedsvelgeren bruker Kartverkets fylke-/kommunesnapshot fra 2026-10-04, https://ws.geonorge.no/kommuneinfo/v1/fylkerkommuner. Norske og andre offisielle navn er beholdt. Stedsfilteret matcher geografiske metadata hos NB og coverage/subject/title hos IA; det er ikke en grensepolygon-test eller komplett oversetting av historiske kommunenavn. Søkeord, tidsperiode og tilgang beholdes ved stedsvalg. DigitaltMuseum er fremdeles en ekstern kilde uten direkte API-tilkobling.

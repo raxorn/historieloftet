@@ -41,3 +41,16 @@ for(const value of ['1919-1910','1900 OR *:*','19','2100','1900-'])assert.equal(
 assert.equal(periodLabel('1900'),'1900');
 assert.equal(periodLabel('1900-1999'),'1900-tallet (1900–1999)');
 console.log('Century, decade, exact year, undated and invalid period checks passed.');
+
+import {compareItems,itemYear,yearHeading} from '../lib/chronology.ts';
+const dated=(year,source='nb',id=year)=>({year,source,id});
+assert.equal(itemYear(dated('06.06.1996')),1996);
+assert.equal(itemYear(dated('1900–1930')),1900);
+assert.equal(itemYear({...dated('1900'),sortYear:null}),null);
+assert.equal(yearHeading(dated('')), 'Udatert');
+for(const order of ['oldest','newest']){
+ const items=[dated(''),dated('1996'),dated('1900','ia'),dated('1900','nb')].sort((a,b)=>compareItems(a,b,order));
+ assert.equal(items.at(-1).year,'');
+ assert.deepEqual(items.slice(0,3).map(itemYear),order==='oldest'?[1900,1900,1996]:[1996,1900,1900]);
+}
+console.log('Chronological direction, full dates, ties and undated-last checks passed.');

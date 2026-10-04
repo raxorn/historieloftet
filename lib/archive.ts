@@ -1,4 +1,4 @@
-export type RecordItem = {id:string; source:string; title:string; year:string; creator:string; kind:string; url:string; image?:string; access:string; accessGroup?:string; digital?:boolean; publicDomain?:boolean; inlineReadable?:boolean; licenseUrl?:string; nonCommercial?:boolean; open:boolean; rights:string; description:string};
+export type RecordItem = {id:string; sortYear?:number|null; source:string; title:string; year:string; creator:string; kind:string; url:string; image?:string; access:string; accessGroup?:string; digital?:boolean; publicDomain?:boolean; inlineReadable?:boolean; licenseUrl?:string; nonCommercial?:boolean; open:boolean; rights:string; description:string};
 // This personal history site is non-commercial. Unknown licenses remain source-only.
 const nbLicenses:Record<string,string>={cc0:'CC0',ccby:'CC BY',ccbysa:'CC BY-SA',ccbynd:'CC BY-ND',ccbync:'CC BY-NC',ccbyncsa:'CC BY-NC-SA',ccbyncnd:'CC BY-NC-ND'};
 export const str=(v:unknown):string=>Array.isArray(v)?v.map(str).join(', '):typeof v==='string'?v:typeof v==='number'?String(v):'';
