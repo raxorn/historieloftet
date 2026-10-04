@@ -1,0 +1,57 @@
+{
+  "fetchedAt": "2026-10-04T18:41:05.425Z",
+  "scope": "Sarpsborg; metadata only, no media files downloaded. Search result does not prove that a work depicts the city.",
+  "sources": {
+    "digitaltmuseum": {
+      "counts": {
+        "photographs": {
+          "reported": 15530,
+          "saved": 1560
+        },
+        "fineart": {
+          "reported": 62,
+          "saved": 10
+        },
+        "architecture": {
+          "reported": 38,
+          "saved": 10
+        },
+        "buildings": {
+          "reported": 4,
+          "saved": 4
+        }
+      },
+      "totalUnique": 1584
+    },
+    "nb": {
+      "counts": {
+        "photos_title": {
+          "reported": 2266,
+          "saved": 2266
+        },
+        "books_title": {
+          "reported": 462,
+          "saved": 462
+        },
+        "books_subject": {
+          "reported": 704,
+          "saved": 704
+        },
+        "maps_title": {
+          "reported": 46,
+          "saved": 46
+        }
+      },
+      "uniqueBooks": 837
+    },
+    "kulturminnesok": {
+      "reported": 1207,
+      "saved": 1207,
+      "withImages": 699
+    },
+    "commons": {
+      "reported": 2005,
+      "saved": 2005
+    }
+  }
+}

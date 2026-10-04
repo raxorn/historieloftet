@@ -1,0 +1,398 @@
+{
+  "fetchedAt": "2026-10-04T18:54:24.647Z",
+  "scope": "Sarpsborg – innsamlet katalogmetadata, ikke ferdig koblet til bilder eller stedssider. Treff fra forskjellige kilder kan overlappe.",
+  "sourceStatus": {
+    "nationalLibrary": {
+      "photosWithSarpsborgInTitle": 2266,
+      "booksWithSarpsborgInTitleOrSubject": 837,
+      "mapsWithSarpsborgInTitle": 46,
+      "newspaperArticles": "Ikke hentet. Avisutgaver/ordtreff er ikke det samme som verifiserte artikler.",
+      "examples": {
+        "books": [
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/6adec2aaebc1ec70422f1be56626bdee"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/f8605f3794544ed74036bade1e67a5e8"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/bb5d0dbcfaf4a7c48377b21cd33052c9"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/236d97f69c8d7c23a3b340fd6775779c"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/73829ad9108ef04b75865d6006e5347c"
+          },
+          {
+            "title": "Forandring Sarpsborg",
+            "url": "https://www.nb.no/items/4cf029c1d97ab6ddabddf85e3e6dc1c8"
+          },
+          {
+            "title": "Metodistkirken : Sarpsborg",
+            "url": "https://www.nb.no/items/ce30f0f50fc865f52cb899a27407b189"
+          },
+          {
+            "title": "Sarpsborg generalplan",
+            "url": "https://www.nb.no/items/5923d6831c388488f11e0e3b5fb26017"
+          }
+        ],
+        "maps": [
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/cd9319ea1efe0888c13bf78dd680def0"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/9ec6daa0a30f23dda0ac5be39857d3bb"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/1c2dace713a6089d18a4b348ac99b1b5"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/108f7567d663af636192b4146de4c93d"
+          },
+          {
+            "title": "Sarpsborg",
+            "url": "https://www.nb.no/items/eeea397d4bf9e7caa08553e746cb112e"
+          },
+          {
+            "title": "Sarpsborg bykart",
+            "url": "https://www.nb.no/items/ac355f4cad7993505ff578d8202d3f92"
+          },
+          {
+            "title": "Sarpsborg : satellittbildekart",
+            "url": "https://www.nb.no/items/37eba1ba07cfb8ef592811b96a6a236e"
+          },
+          {
+            "title": "Sarpsborg bykart",
+            "url": "https://www.nb.no/items/b471686f89fcfbe72eb1ab40e29ec675"
+          }
+        ]
+      }
+    },
+    "digitaltMuseum": {
+      "catalogPhotoSearchHits": 15530,
+      "recordsSampled": 1584,
+      "photosSampled": 1560,
+      "artworksSampled": 10,
+      "withMedia": 1530,
+      "explicitSarpsborgPlace": 339,
+      "licenses": [
+        {
+          "name": "CC by-nc-nd",
+          "count": 321
+        },
+        {
+          "name": "CC CC BY-ND",
+          "count": 51
+        },
+        {
+          "name": "CC by-nd",
+          "count": 43
+        },
+        {
+          "name": "CC pdm",
+          "count": 38
+        },
+        {
+          "name": "CC by",
+          "count": 15
+        },
+        {
+          "name": "CC by-nc-sa",
+          "count": 11
+        },
+        {
+          "name": "AC 1",
+          "count": 7
+        },
+        {
+          "name": "CC by-sa",
+          "count": 5
+        },
+        {
+          "name": " ©",
+          "count": 5
+        },
+        {
+          "name": "CC CC BY-NC-ND",
+          "count": 1
+        },
+        {
+          "name": "None None",
+          "count": 1
+        }
+      ],
+      "owners": [
+        {
+          "name": "SAF",
+          "count": 744
+        },
+        {
+          "name": "OST-FB",
+          "count": 294
+        },
+        {
+          "name": "NJB",
+          "count": 191
+        },
+        {
+          "name": "NSK",
+          "count": 106
+        },
+        {
+          "name": "NF",
+          "count": 78
+        },
+        {
+          "name": "NTM",
+          "count": 22
+        },
+        {
+          "name": "NVIM",
+          "count": 19
+        },
+        {
+          "name": "OST-MB",
+          "count": 19
+        },
+        {
+          "name": "TEM",
+          "count": 15
+        },
+        {
+          "name": "HH",
+          "count": 13
+        },
+        {
+          "name": "NVM",
+          "count": 13
+        },
+        {
+          "name": "NSM",
+          "count": 10
+        }
+      ],
+      "complete": false,
+      "limitation": "Demo-nøkkelen returnerer maksimalt ti poster per forespørsel. Uttrekket er et spredt utvalg av søkeresultatene, ikke alle 15 530 fototreffene. Full innhenting krever egnet API-nøkkel og kontroll av søkerelevans.",
+      "examples": {
+        "photographs": [
+          {
+            "title": "Bakkegata i Sannesund, Sarpsborg med Melløs, 1912. Seilskuter ved kai. Husene på toppen hører antakelig til Elvegata.",
+            "url": "https://digitaltmuseum.no/021017421989"
+          },
+          {
+            "title": "Sarpsborg sentrum - panorama. Sarpsborg torg, Sarpsborg sykehus, St. Olavs gravlund, Sarpsborg papp",
+            "url": "https://digitaltmuseum.no/0210113240943"
+          },
+          {
+            "title": "Sarpsborg gamlehjem og Sarpsborg bad",
+            "url": "https://digitaltmuseum.no/0210113242062"
+          },
+          {
+            "title": "Sarpsborg Janitsjarkorps spiller på Sarpsborg Stadion",
+            "url": "https://digitaltmuseum.no/0210113247249"
+          },
+          {
+            "title": "Flyfoto av Sarpsborg sentrum sett vestover fra Sarpsborg kirke",
+            "url": "https://digitaltmuseum.no/0210113241117"
+          },
+          {
+            "title": "Sarpsborg 08 har vunnet på Sarpsborg stadion",
+            "url": "https://digitaltmuseum.no/0210113247776"
+          },
+          {
+            "title": "Sarpsborg torv og Sarpsborg kirke rundt århundreskiftet",
+            "url": "https://digitaltmuseum.no/0210113242557"
+          },
+          {
+            "title": "Sarpsborg Sefa, lengst til høyre Sarpsborg Jernbanestasjon",
+            "url": "https://digitaltmuseum.no/0210113240578"
+          }
+        ],
+        "artworks": [
+          {
+            "title": "Innland [Maleri]",
+            "url": "https://digitaltmuseum.no/011042531924"
+          },
+          {
+            "title": "[uten tittel] [Papir]",
+            "url": "https://digitaltmuseum.no/011042531738"
+          },
+          {
+            "title": "Inntrykk fra Afrika [Papir]",
+            "url": "https://digitaltmuseum.no/011042531746"
+          },
+          {
+            "title": "[uten tittel] [Papir]",
+            "url": "https://digitaltmuseum.no/011042531920"
+          },
+          {
+            "title": "[uten tittel] [Papir]",
+            "url": "https://digitaltmuseum.no/011042531922"
+          },
+          {
+            "title": "[uten tittel] [Papir]",
+            "url": "https://digitaltmuseum.no/011042531923"
+          },
+          {
+            "title": "[uten tittel] [Keramikk]",
+            "url": "https://digitaltmuseum.no/011042531925"
+          },
+          {
+            "title": "[uten tittel] [Papir]",
+            "url": "https://digitaltmuseum.no/011042531919"
+          }
+        ]
+      }
+    },
+    "kulturminnesok": {
+      "municipalityMatches": 1207,
+      "withImages": 699,
+      "imageReferences": 1848,
+      "examples": [
+        {
+          "title": "Rodestein, Myggedalen",
+          "url": "https://www.kulturminnesok.no/kart/?id=0001dffd-efec-11ed-93b7-005056bf50a4"
+        },
+        {
+          "title": "Rodestein, Åserødveien",
+          "url": "https://www.kulturminnesok.no/kart/?id=003db7c1-efec-11ed-93b7-005056bf50a4"
+        },
+        {
+          "title": "Rodestein ved Hellene/Tveterveien",
+          "url": "https://www.kulturminnesok.no/kart/?id=0079fb88-efec-11ed-93b7-005056bf50a4"
+        },
+        {
+          "title": "Rodestein, Storedalveien (I.)",
+          "url": "https://www.kulturminnesok.no/kart/?id=00b711fd-efec-11ed-93b7-005056bf50a4"
+        },
+        {
+          "title": "Rodestein ved Storedalveien (II.)",
+          "url": "https://www.kulturminnesok.no/kart/?id=00f31be1-efec-11ed-93b7-005056bf50a4"
+        },
+        {
+          "title": "Rodestein ved Delås - Tveter",
+          "url": "https://www.kulturminnesok.no/kart/?id=012fc161-efec-11ed-93b7-005056bf50a4"
+        },
+        {
+          "title": "Kultorp, jettegryte øst for Kultorp",
+          "url": "https://www.kulturminnesok.no/kart/?id=016dcc88-c8c5-11ee-8d36-005056bf50a4"
+        },
+        {
+          "title": "Rodestein ved Dusaveien (I.)",
+          "url": "https://www.kulturminnesok.no/kart/?id=0174cdd2-efec-11ed-93b7-005056bf50a4"
+        }
+      ]
+    },
+    "commons": {
+      "fileTitleMatches": 2005,
+      "licenseMetadataCollected": 0,
+      "limitation": "Filene er søketreff på navnet. Lisens og avbildet sted må kontrolleres for hvert verk før visning eller kobling.",
+      "examples": [
+        {
+          "title": "File:Sarpsborg station and town centre from north (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File%3ASarpsborg_station_and_town_centre_from_north_(3).jpg"
+        },
+        {
+          "title": "File:Sarpsborg 1885.webp",
+          "url": "https://commons.wikimedia.org/wiki/File%3ASarpsborg_1885.webp"
+        },
+        {
+          "title": "File:Sarpsborg komm.svg",
+          "url": "https://commons.wikimedia.org/wiki/File%3ASarpsborg_komm.svg"
+        },
+        {
+          "title": "File:Gaagate Sarpsborg 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File%3AGaagate_Sarpsborg_1.JPG"
+        },
+        {
+          "title": "File:Sarpsborg stadion Ham-Kam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File%3ASarpsborg_stadion_Ham-Kam.jpg"
+        },
+        {
+          "title": "File:Verdensteateret Sarpsborg.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File%3AVerdensteateret_Sarpsborg.jpg"
+        },
+        {
+          "title": "File:Sarpsborg teaterlag.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File%3ASarpsborg_teaterlag.jpg"
+        },
+        {
+          "title": "File:NO 3105 Sarpsborg.svg",
+          "url": "https://commons.wikimedia.org/wiki/File%3ANO_3105_Sarpsborg.svg"
+        }
+      ]
+    },
+    "kartverket": {
+      "uniqueNamesRetrieved": 3178,
+      "withCoordinates": 3178,
+      "limitation": "Stedsnavn og koordinater hjelper identifikasjon, men et registrert punkt er ikke fotografiets kamerastandpunkt.",
+      "examples": [
+        {
+          "title": "Sarpsborg",
+          "type": "By"
+        },
+        {
+          "title": "Skjærviken",
+          "type": "Tettsted"
+        },
+        {
+          "title": "Greåker",
+          "type": "Tettsted"
+        },
+        {
+          "title": "Skjeberg",
+          "type": "Tettsted"
+        },
+        {
+          "title": "Høyfoss",
+          "type": "Foss"
+        },
+        {
+          "title": "Buerfossen",
+          "type": "Foss"
+        },
+        {
+          "title": "Sarpefossen",
+          "type": "Foss"
+        },
+        {
+          "title": "Sølvstufossen",
+          "type": "Foss"
+        },
+        {
+          "title": "Øby",
+          "type": "Bru"
+        },
+        {
+          "title": "Nes",
+          "type": "Bru"
+        },
+        {
+          "title": "Ise",
+          "type": "Bru"
+        },
+        {
+          "title": "Rye",
+          "type": "Bru"
+        }
+      ]
+    },
+    "europeana": {
+      "status": "API-nøkkel kreves før bulk-uttak. Ikke hentet."
+    },
+    "digitalarkivet": {
+      "status": "Ingen egnet offentlig API for bulk-uttak av bildesøket er bekreftet. Ikke hentet."
+    }
+  },
+  "next": "Normaliser stedsnavn, dedupliser mellom kilder, vurder avbildet sted og rettigheter, og koble konkrete bokpassasjer og avisartikler til steder. Ingen av disse koblingene er verifisert av dette uttrekket."
+}
