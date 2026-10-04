@@ -6,7 +6,7 @@ const cityCatalog=read('data/city-photo-catalog.json');
 const normalize=value=>String(value||'').toLocaleLowerCase('nb-NO').normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 const contains=(text,alias)=>` ${normalize(text)} `.includes(` ${normalize(alias)} `);
 const usedAcrossCities=new Set();
-const result={createdAt:new Date().toISOString(),method:'Automatiske forslag fra arkivmetadata. Ingen visuell modell eller uavhengig manuell kontroll av dette utvalget er kjørt. Høy sikkerhet betyr at flere metadatafelt støtter samme sted, ikke at fotografiet visuelt er stedfestet.',selection:'100 nye NB-bilder og 100 bilder fra DigitaltMuseum per by, spredt over daterte tiår. NB-bilder i tidligere 200/1000-piloter er utelatt. Utvalget er ikke statistisk representativt.',cities:[]};
+const result={createdAt:new Date().toISOString(),method:'Automatiske forslag fra arkivmetadata. Ingen visuell modell eller uavhengig manuell kontroll av dette utvalget er kjørt. Høy sikkerhet betyr at flere metadatafelt støtter samme sted, ikke at fotografiet visuelt er stedfestet.',selection:'100 nye NB-bilder og 100 bilder fra DigitaltMuseum per by, spredt over daterte tiår. NB-bilder i tidligere 200/1000-piloter er utelatt. DigitaltMuseum-poster må nevne byen eller et kjent sted i tittelen; identiske titler er begrenset til to. Utvalget er ikke statistisk representativt.',cities:[]};
 
 function sampleAcrossDecades(input,count){
  const buckets=new Map();
@@ -35,8 +35,11 @@ for(const city of ['Sarpsborg','Fredrikstad']){
  const nb=cityInfo.decades.flatMap(({decade})=>read(`public/city-photos/${slug}-${decade}.json`))
   .filter(item=>item.image&&item.inlineReadable&&!prior.has(item.id)&&Number.isInteger(item.sortYear)&&item.sortYear<=2000)
   .map(item=>({key:`nb:${item.id}`,source:'Nasjonalbiblioteket',sourceId:item.id,title:item.title,year:item.sortYear,image:item.image,url:item.url,place:item.facts?.find(fact=>fact.label==='Sted')?.value||'',subjects:[],rights:item.rights||null,coordinate:null}));
+ const dmTitleCounts=new Map();
  const dm=read(`data/source-harvest/${slug}-digitaltmuseum.json`)
   .filter(item=>item.type==='Photograph'&&item.image&&Number.isInteger(item.year)&&item.year<=2000)
+  .filter(item=>contains(item.title,city)||authority[city].some(place=>place.aliases.some(alias=>contains(item.title,alias))))
+  .filter(item=>{const title=normalize(item.title);const count=dmTitleCounts.get(title)||0;dmTitleCounts.set(title,count+1);return count<2})
   .map(item=>({key:`dimu:${item.id}`,source:'DigitaltMuseum',sourceId:item.id,title:item.title,year:item.year,image:item.image,url:item.url,place:item.place||'',subjects:item.subjects||[],rights:item.license||[],coordinate:item.coordinate||null}));
  const chosen=[...sampleAcrossDecades(nb,100),...sampleAcrossDecades(dm,100)].sort((a,b)=>a.year-b.year||a.key.localeCompare(b.key));
  const items=chosen.map(item=>{
@@ -52,7 +55,8 @@ for(const city of ['Sarpsborg','Fredrikstad']){
    }
    if(!evidence.length)return [];
    const title=evidence.some(e=>e.field==='title');
-   return [{place:place.name,confidence:title&&evidence.length>1?'high':title?'medium':'low',evidence}];
+   const personContext=/\b(portrett|ordfører|sogneprest|personalia)\b/iu.test(item.title);
+   return [{place:place.name,confidence:personContext?'low':title&&evidence.length>1?'high':title?'medium':'low',evidence,context:personContext?'Stedet kan være knyttet til personen, uten å være avbildet.':'Stedet er nevnt i bildets arkivmetadata.'}];
   }).sort((a,b)=>({high:0,medium:1,low:2}[a.confidence]-{high:0,medium:1,low:2}[b.confidence])||a.place.localeCompare(b.place,'nb'));
   return {...item,city,matches,reviewStatus:'needs-human-review',coordinateStatus:item.coordinate?'Arkivets koordinat; posisjon for motivet ikke kontrollert':'Ikke koordinatfestet'};
  });
