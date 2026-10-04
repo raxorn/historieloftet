@@ -27,7 +27,8 @@ const notes={
 function context(item){
  const t=item.title.toLowerCase();
  if(/kirkeparken/.test(t))return 'Fredrikstad parker';
- if(/kirke.gat/.test(t))return 'Fredrikstad sentrum · gater';
+ if(/kirke.?gat/.test(t))return 'Fredrikstad sentrum · gater';
+ if(/jernbanepark|parken ved jernbane/.test(t))return 'Fredrikstad parker';
  if(/onsøy kirke/.test(t))return 'Onsøy kirke';
  if(/rolvsøy kirke/.test(t))return 'Rolvsøy kirke';
  if(/glemm.*kirke/.test(t))return 'Glemmen kirke';
