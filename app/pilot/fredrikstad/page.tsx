@@ -1,8 +1,8 @@
 'use client';
 import {Fragment,useState} from 'react';
 import {Archive,ArrowLeft,Camera} from 'lucide-react';
-import ArchiveViewer from '../../components/archive-viewer';
-import {pilot,filterPilot,groupFor,type PilotFilters} from '../../lib/pilot';
+import ArchiveViewer from '../../../components/archive-viewer';
+import {fredrikstadPilot as pilot,filterPilot,groupFor,type PilotFilters} from '../../../lib/pilot';
 const initial:PilotFilters={method:'visual',group:'',place:'',year:'',status:'',order:'oldest'};
 export default function Pilot(){
  const [filters,setFilters]=useState(initial),[selectedId,setSelectedId]=useState<string|null>(null);
@@ -13,9 +13,9 @@ export default function Pilot(){
  const years=[...new Set(pilot.items.map(x=>x.sortYear))].sort();
  const groupCount=(g:string)=>filterPilot(pilot.items,{...filters,group:g}).length;
  return <><header className="top"><a href="/" className="brand"><Archive size={24}/><span>Historieloftet<span className="brand-small">ET STED FOR GAMLE SPOR</span></span></a><a href="/">Til arkivet</a></header>
- <main className="pilot-main"><a className="pilot-back" href="/"><ArrowLeft size={16}/> Tilbake til alle arkivtreff</a><a className="pilot-companion" href="/pilot/fredrikstad">Se 200 nye bilder fra Fredrikstad</a><div className="eyebrow">PILOTSAMLING · VERSJON 1</div><h1>Sarpsborg <em>1920–1929</em></h1><p className="pilot-lead">200 bilder. Utforsk motivene, sammenlign grupperingen og se hvorfor bildene er samlet.</p>
+ <main className="pilot-main"><a className="pilot-back" href="/"><ArrowLeft size={16}/> Tilbake til alle arkivtreff</a><a className="pilot-companion" href="/pilot">Se Sarpsborg-piloten</a><div className="eyebrow">PILOTSAMLING · FREDRIKSTAD</div><h1>Fredrikstad <em>1920–1929</em></h1><p className="pilot-lead">200 nye bilder. Utforsk motivene, sammenlign grupperingen og se hvorfor bildene er samlet.</p>
  <div className="pilot-stats"><span><b>200</b> faste bilder</span><span><b>{groups.length}</b> motivgrupper i valgt visning</span><span><b>{pilot.items.filter(x=>x.needsReview).length}</b> trenger ekstra kontroll</span><span><b>0</b> bekreftede GPS-punkter</span></div>
- <details className="pilot-method"><summary>Hva er testet, og hvordan ble bildene valgt?</summary><p>{pilot.selection}</p><p>Her betyr Sarpsborg arkivets geografiske registrering, inkludert blant annet Skjeberg, Tune og Varteig. Dateringen er arkivets; «1920» kan være omtrentlig. År uten treff i utvalget vises ikke i årfilteret.</p><p>{pilot.review}</p><p>Visuell gjennomgang er forslag fra bildeanalyse i denne samtalen, ikke menneskelig godkjenning. Arkivvisningen bruker enkle regler på titler og stedsopplysninger. Modellene er ikke sammenlignet, og det er ikke kjørt egen OCR eller automatisk identifisering av konkrete steder.</p><p>{pilot.gpsStatus} Bok- og aviskoblinger er ennå ikke undersøkt.</p><p>Hentet {new Date(pilot.fetchedAt).toLocaleDateString('nb-NO')} fra {pilot.sourceTotal} åpne NB-treff. Opplysninger og grupper er lagret som en fast, versjonert samling.</p></details>
+ <details className="pilot-method"><summary>Hva er testet, og hvordan ble bildene valgt?</summary><p>{pilot.selection}</p><p>Her betyr Fredrikstad arkivets geografiske registrering, inkludert blant annet Onsøy, Glemmen, Rolvsøy og Hankø. Dateringen er arkivets; «1920» kan være omtrentlig. År uten treff i utvalget vises ikke i årfilteret.</p><p>{pilot.review}</p><p>Visuell gjennomgang er forslag fra bildeanalyse i denne samtalen, ikke menneskelig godkjenning. Baksider av fotografier ble holdt utenfor dette utvalget. Arkivvisningen bruker enkle regler på titler og stedsopplysninger. Modellene er ikke sammenlignet, og det er ikke kjørt egen OCR eller automatisk identifisering av konkrete steder.</p><p>{pilot.gpsStatus} Bok- og aviskoblinger er ennå ikke undersøkt.</p><p>Hentet {new Date(pilot.fetchedAt).toLocaleDateString('nb-NO')} fra {pilot.sourceTotal} åpne NB-treff. Opplysninger og grupper er lagret som en fast, versjonert samling.</p></details>
  <section className="pilot-filters" aria-label="Filtrer pilotsamlingen">
  <label>Gruppering<select value={filters.method} onChange={e=>update({method:e.target.value,group:''})}><option value="visual">Visuell gjennomgang + arkiv</option><option value="metadata">Bare arkivopplysninger</option></select></label>
  <label>Sted / sammenheng<select value={filters.place} onChange={e=>update({place:e.target.value})}><option value="">Alle steder og sammenhenger</option>{places.map(p=><option key={p}>{p}</option>)}</select></label>

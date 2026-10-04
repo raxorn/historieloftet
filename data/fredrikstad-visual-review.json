@@ -1,0 +1,36 @@
+{
+  "reviewedAt": "2026-10-04",
+  "method": "Visuell førstegangsvurdering i Codex av 200 forhåndsvisninger, vist i 10 kontaktark. Motiver er vurdert sammen med arkivtittel. Dette er ikke en uavhengig modelltest, OCR-kjøring eller menneskelig bekreftelse.",
+  "legend": {
+    "Ki": "Kirkeinteriør",
+    "Kd": "Kirkeinventar og detaljer",
+    "Ke": "Kirker utvendig",
+    "Bv": "By- og landskapsutsikt",
+    "Ga": "Gater og byliv",
+    "Pa": "Parker og hager",
+    "Hv": "Havn og fartøy",
+    "Ks": "Kystlandskap",
+    "Ba": "Strand og badeliv",
+    "Fo": "Festningsverk og porter",
+    "By": "Bygninger og institusjoner",
+    "Go": "Gårder og herregårder",
+    "Br": "Broer og jernbane",
+    "In": "Industri og fabrikker",
+    "Bo": "Botanikk og vegetasjon",
+    "Na": "Natur og terreng",
+    "To": "Torg og monumenter"
+  },
+  "pages": [
+    ["Ki","Na","Ki","Ks","Kd","Ba","Hv","Go","Go","Ga","Kd","Ga","Ga","Hv","Kd","Kd","Ga","Pa","Hv","Bv"],
+    ["Hv","Ga","Bv","Bv","Fo","Ga","Ba","Bv","By","Ga","By","By","Fo","By","Na","To","Fo","Ga","Na","Ga"],
+    ["Pa","Kd","Bv","Ke","Bv","Ga","Bv","Ks","Ke","By","Ke","Ba","Go","By","By","Pa","Pa","Pa","Hv","By"],
+    ["Bv","Ga","Fo","Ba","Go","Bv","Na","Bv","Hv","Hv","Ga","Bv","By","Go","Ga","To","Kd","Ga","Bv","Bv"],
+    ["Kd","Ga","Fo","Fo","Ke","Fo","Ga","Fo","Pa","Bv","Go","Hv","Fo","Bv","Ke","Ba","Br","Bv","Ke","To"],
+    ["Kd","Bv","Ba","Pa","Kd","Bv","Hv","Ba","Bv","Bv","Ga","Pa","To","To","Pa","Br","Kd","Ga","Pa","Br"],
+    ["Ke","Ga","By","Ga","Ga","Bv","Br","Hv","Ga","Bv","By","By","Bv","Go","Ga","By","Go","Kd","Ke","Ks"],
+    ["Ke","Br","By","In","Ga","Ga","By","Ke","To","Fo","Bv","Ga","Fo","Fo","Fo","Br","Bo","Bo","Na","Bo"],
+    ["Bo","Bo","Bo","Bo","Bo","Bo","Na","Bo","Ks","Bo","Bo","Bo","Bo","Ks","Na","Ks","Na","Bo","Na","Bo"],
+    ["By","Bv","Pa","Bv","By","By","Ke","Bv","Ke","Bv","Ga","Ga","Ga","Br","Ke","Bo","Hv","Hv","Hv","Hv"]
+  ],
+  "needsReview": [2, 16, 29, 34, 43, 46, 48, 67, 78, 91, 98, 106, 120, 134, 140, 159, 164, 176, 185, 188]
+}

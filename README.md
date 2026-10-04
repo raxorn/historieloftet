@@ -52,3 +52,7 @@ Innen hvert år grupperes NB-treff alfabetisk etter registrert by/kommune. NB he
 Alle 200 forhåndsvisningene er visuelt gjennomgått i Codex. 18 foreslåtte motivgrupper kan sammenlignes med 7 grupper fra arkivmetadata. Filtrene kombinerer motiv, sted/sammenheng, år og kontrollstatus. Bildepilene følger det filtrerte utvalget. 18 usikre bilder er merket for kontroll. Gjennomgangen er ikke uavhengig bekreftet; ingen sammenligning mellom API-modeller, OCR, bokkobling eller GPS-verifisering er utført. GPS-feltene er null.
 
 Kjør node scripts/check-pilot.mjs for datasjekk. scripts/apply-pilot-review.mjs bruker den versjonerte visuelle gjennomgangen i data/sarpsborg-visual-review.json.
+
+## Fredrikstad-pilot
+
+/pilot/fredrikstad viser 200 andre NB-poster fra 1920–1929, uten ID-overlapp med Sarpsborg-piloten. Av 287 treff ble fotobaksider og udaterte poster tatt ut før et jevnt utvalg etter arkivdato og ID. Alle 200 forhåndsvisninger er visuelt vurdert i Codex; 20 er merket for ekstra kontroll. Bildeanalysen ble gjennomført i denne samtalen med GPT-6 Sol på middels nivå. Den er ikke en uavhengig kontroll av tidligere kategorier, og det er ikke utført OCR, GPS-verifisering eller bokkoblinger. Kjør `node scripts/check-fredrikstad-pilot.mjs` for integritetskontroll.
