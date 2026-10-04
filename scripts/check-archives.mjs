@@ -54,3 +54,10 @@ for(const order of ['oldest','newest']){
  assert.deepEqual(items.slice(0,3).map(itemYear),order==='oldest'?[1900,1900,1996]:[1996,1900,1900]);
 }
 console.log('Chronological direction, full dates, ties and undated-last checks passed.');
+
+import {comparePlaces,placeHeading} from '../lib/chronology.ts';
+assert.deepEqual(['Sarpsborg','','Halden','Aremark'].sort(comparePlaces),['Aremark','Halden','Sarpsborg','']);
+assert(compareItems({...dated('1900'),sortPlace:'Halden'},{...dated('1900'),sortPlace:'Sarpsborg'},'newest')<0);
+assert(compareItems({...dated('1900'),sortPlace:'Sarpsborg'},{...dated('1901'),sortPlace:'Aremark'},'oldest')<0);
+assert.equal(placeHeading(dated('1900')),'Uten registrert by / kommune');
+console.log('Year then place ordering and missing-place grouping checks passed.');
