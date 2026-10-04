@@ -44,3 +44,11 @@ Stedsvelgeren bruker Kartverkets fylke-/kommunesnapshot fra 2026-10-04, https://
 
 Innen hvert år grupperes NB-treff alfabetisk etter registrert by/kommune. NB hentes i år- og kommunebøtter med egen ID-cursor. Treff uten slik stedfesting (blant annet IA) samles under Uten registrert by / kommune. Sted og tidsperiode har hvert sitt panel ved siden av hverandre på store skjermer. Bildeviseren beholder samme skall ved bildebytte; hele skallet med bildeopplysninger brukes i fullskjerm.
 
+
+## Sarpsborg-pilot
+
+/pilot viser et fast, versjonert utvalg på 200 av 207 åpne NB-bilder med arkivsted Sarpsborg og år 1920–1929. Utvalget er fordelt deterministisk over dato/ID-sorterte treff, ikke et representativt tilfeldig utvalg. data/sarpsborg-pilot.json beholder metadata og bildelenker. Ingen bildefiler lagres.
+
+Alle 200 forhåndsvisningene er visuelt gjennomgått i Codex. 18 foreslåtte motivgrupper kan sammenlignes med 7 grupper fra arkivmetadata. Filtrene kombinerer motiv, sted/sammenheng, år og kontrollstatus. Bildepilene følger det filtrerte utvalget. 18 usikre bilder er merket for kontroll. Gjennomgangen er ikke uavhengig bekreftet; ingen sammenligning mellom API-modeller, OCR, bokkobling eller GPS-verifisering er utført. GPS-feltene er null.
+
+Kjør node scripts/check-pilot.mjs for datasjekk. scripts/apply-pilot-review.mjs bruker den versjonerte visuelle gjennomgangen i data/sarpsborg-visual-review.json.
