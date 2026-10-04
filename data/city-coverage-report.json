@@ -1,0 +1,400 @@
+{
+  "id": "city-coverage-audit-v1",
+  "catalogFetchedAt": "2026-10-04T16:37:07.047Z",
+  "method": "Full opptelling av de lagrede katalogpostene for Sarpsborg og Fredrikstad før 2000. Gruppene er blanding av pilotgjennomgang og automatiske forslag fra arkivmetadata; ikke alle er visuelt bekreftet. Navngitte steder er teksttreff i arkivopplysninger, ikke verifisert GPS eller motiv.",
+  "total": 8525,
+  "uniquePhotos": 8524,
+  "visuallyReviewed": 697,
+  "unresolved": 6141,
+  "cities": [
+    {
+      "city": "Sarpsborg",
+      "total": 5041,
+      "visuallyReviewed": 497,
+      "unresolved": 3550,
+      "unresolvedFlyPhotos": 3259,
+      "sourceOnly": 3,
+      "groupCounts": [
+        {
+          "name": "Flyfoto · uavklart motiv",
+          "count": 3259
+        },
+        {
+          "name": "Uavklart motiv",
+          "count": 291
+        },
+        {
+          "name": "Flyfoto · by og tettsteder",
+          "count": 266
+        },
+        {
+          "name": "Kirker og gravplasser",
+          "count": 165
+        },
+        {
+          "name": "Sarpsfossen og Glomma",
+          "count": 130
+        },
+        {
+          "name": "Flyfoto · industri",
+          "count": 96
+        },
+        {
+          "name": "Museum og kulturminner",
+          "count": 88
+        },
+        {
+          "name": "Torg, parker og monumenter",
+          "count": 69
+        },
+        {
+          "name": "Industri og arbeidsliv",
+          "count": 67
+        },
+        {
+          "name": "Mennesker og hendelser",
+          "count": 64
+        },
+        {
+          "name": "Bygninger og institusjoner",
+          "count": 50
+        },
+        {
+          "name": "Broer, jernbane og veier",
+          "count": 40
+        },
+        {
+          "name": "Elv og vannlandskap",
+          "count": 37
+        },
+        {
+          "name": "Gater og byliv",
+          "count": 35
+        },
+        {
+          "name": "Industri ved elven",
+          "count": 33
+        },
+        {
+          "name": "Kirkeinventar og detaljer",
+          "count": 29
+        },
+        {
+          "name": "By- og landskapsutsikt",
+          "count": 27
+        },
+        {
+          "name": "Flyfoto · industri og arbeidsliv",
+          "count": 27
+        },
+        {
+          "name": "Industri utvendig",
+          "count": 23
+        },
+        {
+          "name": "Flyfoto · vann og havn",
+          "count": 23
+        },
+        {
+          "name": "Foss og elvelandskap",
+          "count": 22
+        },
+        {
+          "name": "Gårder og boliger",
+          "count": 21
+        },
+        {
+          "name": "Industriinteriør og maskiner",
+          "count": 17
+        },
+        {
+          "name": "Flyfoto · torg, parker og monumenter",
+          "count": 17
+        },
+        {
+          "name": "Gårder og bygninger",
+          "count": 14
+        },
+        {
+          "name": "Gravminner",
+          "count": 13
+        },
+        {
+          "name": "Flyfoto · broer, jernbane og veier",
+          "count": 12
+        },
+        {
+          "name": "Kirker utvendig",
+          "count": 11
+        },
+        {
+          "name": "Amundsenfestlighetene",
+          "count": 11
+        },
+        {
+          "name": "Flyfoto · kirker og gravplasser",
+          "count": 11
+        },
+        {
+          "name": "Kirkeinteriør",
+          "count": 10
+        },
+        {
+          "name": "Havn, brygger og fartøy",
+          "count": 8
+        },
+        {
+          "name": "Tømmer og elvearbeid",
+          "count": 7
+        },
+        {
+          "name": "Flyfoto · bygninger og institusjoner",
+          "count": 7
+        },
+        {
+          "name": "Natur og friluftsliv",
+          "count": 6
+        },
+        {
+          "name": "Flyfoto · havn, brygger og fartøy",
+          "count": 6
+        },
+        {
+          "name": "Strand og badeliv",
+          "count": 5
+        },
+        {
+          "name": "Natur og landskap",
+          "count": 5
+        },
+        {
+          "name": "Flyfoto · sarpsfossen og glomma",
+          "count": 5
+        },
+        {
+          "name": "Ruiner og kulturminner",
+          "count": 3
+        },
+        {
+          "name": "Tømmer og elvelager",
+          "count": 3
+        },
+        {
+          "name": "Jernbane og broer",
+          "count": 2
+        },
+        {
+          "name": "Gårdsinteriør og redskaper",
+          "count": 2
+        },
+        {
+          "name": "Parker og alleer",
+          "count": 1
+        },
+        {
+          "name": "Flyfoto · museum og kulturminner",
+          "count": 1
+        },
+        {
+          "name": "Flyfoto · gater og byliv",
+          "count": 1
+        },
+        {
+          "name": "Flyfoto · gårder og boliger",
+          "count": 1
+        }
+      ],
+      "namedPlaces": [
+        {
+          "name": "Hafslund",
+          "count": 228,
+          "visuallyReviewed": 51
+        },
+        {
+          "name": "Borregaard",
+          "count": 165,
+          "visuallyReviewed": 43
+        },
+        {
+          "name": "Sarpsfossen",
+          "count": 256,
+          "visuallyReviewed": 59
+        },
+        {
+          "name": "Kulås",
+          "count": 7,
+          "visuallyReviewed": 0
+        },
+        {
+          "name": "Borgarsyssel",
+          "count": 44,
+          "visuallyReviewed": 1
+        }
+      ]
+    },
+    {
+      "city": "Fredrikstad",
+      "total": 3484,
+      "visuallyReviewed": 200,
+      "unresolved": 2591,
+      "unresolvedFlyPhotos": 1445,
+      "sourceOnly": 3,
+      "groupCounts": [
+        {
+          "name": "Flyfoto · uavklart motiv",
+          "count": 1445
+        },
+        {
+          "name": "Uavklart motiv",
+          "count": 1146
+        },
+        {
+          "name": "Kirker og gravplasser",
+          "count": 275
+        },
+        {
+          "name": "Museum og kulturminner",
+          "count": 93
+        },
+        {
+          "name": "Gårder og boliger",
+          "count": 86
+        },
+        {
+          "name": "Havn, brygger og fartøy",
+          "count": 61
+        },
+        {
+          "name": "Bygninger og institusjoner",
+          "count": 44
+        },
+        {
+          "name": "Broer, jernbane og veier",
+          "count": 42
+        },
+        {
+          "name": "Gater og byliv",
+          "count": 38
+        },
+        {
+          "name": "Natur og landskap",
+          "count": 29
+        },
+        {
+          "name": "Torg, parker og monumenter",
+          "count": 28
+        },
+        {
+          "name": "By- og landskapsutsikt",
+          "count": 28
+        },
+        {
+          "name": "Mennesker og hendelser",
+          "count": 19
+        },
+        {
+          "name": "Botanikk og vegetasjon",
+          "count": 17
+        },
+        {
+          "name": "Havn og fartøy",
+          "count": 14
+        },
+        {
+          "name": "Kirker utvendig",
+          "count": 13
+        },
+        {
+          "name": "Festningsverk og porter",
+          "count": 13
+        },
+        {
+          "name": "Parker og hager",
+          "count": 11
+        },
+        {
+          "name": "Kirkeinventar og detaljer",
+          "count": 11
+        },
+        {
+          "name": "Industri og arbeidsliv",
+          "count": 9
+        },
+        {
+          "name": "Natur og terreng",
+          "count": 9
+        },
+        {
+          "name": "Gårder og herregårder",
+          "count": 8
+        },
+        {
+          "name": "Strand og badeliv",
+          "count": 7
+        },
+        {
+          "name": "Broer og jernbane",
+          "count": 7
+        },
+        {
+          "name": "Sarpsfossen og Glomma",
+          "count": 7
+        },
+        {
+          "name": "Kystlandskap",
+          "count": 6
+        },
+        {
+          "name": "Torg og monumenter",
+          "count": 6
+        },
+        {
+          "name": "Flyfoto · industri og arbeidsliv",
+          "count": 4
+        },
+        {
+          "name": "Kirkeinteriør",
+          "count": 2
+        },
+        {
+          "name": "Flyfoto · bygninger og institusjoner",
+          "count": 2
+        },
+        {
+          "name": "Flyfoto · broer, jernbane og veier",
+          "count": 2
+        },
+        {
+          "name": "Industriinteriør og maskiner",
+          "count": 1
+        },
+        {
+          "name": "Industri og fabrikker",
+          "count": 1
+        }
+      ],
+      "namedPlaces": [
+        {
+          "name": "Gamlebyen",
+          "count": 219,
+          "visuallyReviewed": 29
+        },
+        {
+          "name": "Kongsten",
+          "count": 54,
+          "visuallyReviewed": 7
+        },
+        {
+          "name": "Kråkerøy",
+          "count": 36,
+          "visuallyReviewed": 7
+        },
+        {
+          "name": "Fredrikstad domkirke",
+          "count": 14,
+          "visuallyReviewed": 1
+        }
+      ]
+    }
+  ]
+}

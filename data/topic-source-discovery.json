@@ -1,0 +1,473 @@
+{
+  "id": "topic-source-discovery-v1",
+  "fetchedAt": "2026-10-04T17:36:36.163Z",
+  "method": "Stikkprøve i Nasjonalbibliotekets åpne katalog for åtte navngitte steder. Boktall er søketreff med navnet i tittelen; utvalgte katalogposter er ikke innholdskontrollert. Avistall er søketreff i avisutgaver fra 1800–1999 og er verken antall artikler eller bekreftede forbindelser til fotografier. Søkene dekker ett navneoppslag per sted og kan mangle stavevarianter. Ingen avisutgaver er automatisk knyttet til enkeltbilder.",
+  "topics": [
+    {
+      "city": "Sarpsborg",
+      "name": "Hafslund",
+      "photos": 228,
+      "bookTitleHits": 38,
+      "bookExamples": [
+        {
+          "id": "160fee714a2741987f39dccdc6fbd9ee",
+          "title": "Hafslund hovedgård",
+          "year": "2002",
+          "url": "https://www.nb.no/items/160fee714a2741987f39dccdc6fbd9ee",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "8e7a33295165ac0abb9eb793fc78388f",
+          "title": "Hafslund hovedgaard : 1757-1937",
+          "year": "19370101",
+          "url": "https://www.nb.no/items/8e7a33295165ac0abb9eb793fc78388f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "4f3b255ef38304a1139e33ef1e0b2995",
+          "title": "Hafslund hovedgård : 1757-1937",
+          "year": "19530101",
+          "url": "https://www.nb.no/items/4f3b255ef38304a1139e33ef1e0b2995",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "dc08d8c73c4c7df9f49ff4a713c12810",
+          "title": "Hafslund hovedgaard : 1757-1937",
+          "year": "1937",
+          "url": "https://www.nb.no/items/dc08d8c73c4c7df9f49ff4a713c12810",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "cf49ed981a8be46654a2529866640d3d",
+          "title": "Hafslund hovedgård : 1757-1937",
+          "year": "1937",
+          "url": "https://www.nb.no/items/cf49ed981a8be46654a2529866640d3d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "13ab30d1b0ef2b48b0140b4a9d4283d7",
+          "title": "Hafslund hovedgård 250 år",
+          "year": "2012",
+          "url": "https://www.nb.no/items/13ab30d1b0ef2b48b0140b4a9d4283d7",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "01b0d24a9f1bcac66357de1c4b4cbbb3",
+          "title": "Hafslund hovedgaard : 1757-1937",
+          "year": "1937",
+          "url": "https://www.nb.no/items/01b0d24a9f1bcac66357de1c4b4cbbb3",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ee63420e4697a348135983b757aa0d13",
+          "title": "Aktieselskabet Hafslund : 1898-1948",
+          "year": "1948",
+          "url": "https://www.nb.no/items/ee63420e4697a348135983b757aa0d13",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 365321,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Hafslund",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Hafslund"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Borregaard",
+      "photos": 165,
+      "bookTitleHits": 83,
+      "bookExamples": [
+        {
+          "id": "69de9eb05f08d0457d017af6c86901aa",
+          "title": "Borregaard",
+          "year": "19550101",
+          "url": "https://www.nb.no/items/69de9eb05f08d0457d017af6c86901aa",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f6b52e5c7f0a5dec36517143e3333fdf",
+          "title": "Borregaard",
+          "year": "1955",
+          "url": "https://www.nb.no/items/f6b52e5c7f0a5dec36517143e3333fdf",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f3ff986cba6e4df8f3932e5e2027190f",
+          "title": "Borregaard",
+          "year": "1947",
+          "url": "https://www.nb.no/items/f3ff986cba6e4df8f3932e5e2027190f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "06ff242cc37c240f6b8bffb32d180a3f",
+          "title": "Borregaard, A/s",
+          "year": "19220101",
+          "url": "https://www.nb.no/items/06ff242cc37c240f6b8bffb32d180a3f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ce847b8fbbc78bf98fdc23e5c1fb9738",
+          "title": "Borregaard 1918-1968",
+          "year": "1968",
+          "url": "https://www.nb.no/items/ce847b8fbbc78bf98fdc23e5c1fb9738",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "5dc193ac88dab6f2e1b6ac2c76ccad26",
+          "title": "Borregaard, Sarpsborg 1918-1968",
+          "year": "19680101",
+          "url": "https://www.nb.no/items/5dc193ac88dab6f2e1b6ac2c76ccad26",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f54cc39854b8363bca472c6896e85a98",
+          "title": "Borregaard, Sarpsborg 1918-1968",
+          "year": "19680101",
+          "url": "https://www.nb.no/items/f54cc39854b8363bca472c6896e85a98",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "1c3a67fd6e589d9ba6d1cce8c28b6002",
+          "title": "Korrosjonsforholdene ved Borregaard fabrikker",
+          "year": "1995",
+          "url": "https://www.nb.no/items/1c3a67fd6e589d9ba6d1cce8c28b6002",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 333974,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Borregaard",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Borregaard"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Sarpsfossen",
+      "photos": 256,
+      "bookTitleHits": 13,
+      "bookExamples": [
+        {
+          "id": "a731518b259c283622ac8b4b14dd08cc",
+          "title": "Modellforsøk Sarpsfossen : Sarpsfossen I - flomavledningskapasitet, vannstander og vannhastigheter i dagens situasjon",
+          "year": "2014",
+          "url": "https://www.nb.no/items/a731518b259c283622ac8b4b14dd08cc",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "1e639ebfaa62e97ef856924d2156ff1d",
+          "title": "Sarpsfossen i dikt og virkelighet",
+          "year": "1944",
+          "url": "https://www.nb.no/items/1e639ebfaa62e97ef856924d2156ff1d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "6c76b9267a3144100ff81b02dbf02792",
+          "title": "Sarpsfossen i dikt og virkelighet",
+          "year": "19440101",
+          "url": "https://www.nb.no/items/6c76b9267a3144100ff81b02dbf02792",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "5db362b573e396d5a490082ad961587b",
+          "title": "Modellforsøk Sarpsfossen : Sarpsfossen II - nytt kraftverk Sarp 2, utforming av kraftverksinntak og inntak for flomavledning",
+          "year": "2014",
+          "url": "https://www.nb.no/items/5db362b573e396d5a490082ad961587b",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "9ee1afac60488d0c283f8b9717422600",
+          "title": "Elektrisitet fra Sarpsfossen : gjennom 100 år, 1892 - 1992",
+          "year": "1992",
+          "url": "https://www.nb.no/items/9ee1afac60488d0c283f8b9717422600",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "e8e56828155dd3f6527b0d394560504e",
+          "title": "Tilstandskartlegging i Glommas strandsone nedenfor Sarpsfossen : arbeidsrapport del 1",
+          "year": "2001",
+          "url": "https://www.nb.no/items/e8e56828155dd3f6527b0d394560504e",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "956934b1b04c61ccc2d05607fed72b14",
+          "title": "Tilstandskartlegging i Glommas strandsone nedenfor Sarpsfossen : arbeidsrapport 2 : kart",
+          "year": "2001",
+          "url": "https://www.nb.no/items/956934b1b04c61ccc2d05607fed72b14",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f50a805a0c60e2b50bacff350af82ec8",
+          "title": "En suær forfærdelig Fos : svunne tiders møte med Sarpsfossen",
+          "year": "1986",
+          "url": "https://www.nb.no/items/f50a805a0c60e2b50bacff350af82ec8",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 16187,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Sarpsfossen",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Sarpsfossen"
+    },
+    {
+      "city": "Sarpsborg",
+      "name": "Borgarsyssel",
+      "photos": 44,
+      "bookTitleHits": 24,
+      "bookExamples": [
+        {
+          "id": "0d00c1219e3adddab10e770e967d9550",
+          "title": "Borgarsyssel museum",
+          "year": "1984",
+          "url": "https://www.nb.no/items/0d00c1219e3adddab10e770e967d9550",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "e18c4c037d79358adc8d92329a2ca66f",
+          "title": "Borgarsyssel museum",
+          "year": "19840101",
+          "url": "https://www.nb.no/items/e18c4c037d79358adc8d92329a2ca66f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f9828c566480c5b1a928777c40438b58",
+          "title": "Halvhundre bilder fra Borgarsyssel museum = : Half a hundred pictures from Borgarsyssel Museum = Halbhundert Bilder aus Borgarsyssel Museum",
+          "year": "1958",
+          "url": "https://www.nb.no/items/f9828c566480c5b1a928777c40438b58",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "fd6b1c1574358b1c7828179ea861b9fd",
+          "title": "Halvhundre bilder fra Borgarsyssel museum",
+          "year": "1958",
+          "url": "https://www.nb.no/items/fd6b1c1574358b1c7828179ea861b9fd",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ffe04cc0cfef72a4493182f539123253",
+          "title": "Halvhundre bilder fra Borgarsyssel museum",
+          "year": "19580101",
+          "url": "https://www.nb.no/items/ffe04cc0cfef72a4493182f539123253",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "4b1dcb995113b0d3eefe50c1fb3156d1",
+          "title": "Halvhundre bilder fra Borgarsyssel museum",
+          "year": "1958",
+          "url": "https://www.nb.no/items/4b1dcb995113b0d3eefe50c1fb3156d1",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f781ae4bbd5fbb1108baa3ce918e5d25",
+          "title": "Borgarsyssel museum : En liten veiviser",
+          "year": "1941",
+          "url": "https://www.nb.no/items/f781ae4bbd5fbb1108baa3ce918e5d25",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "66fbd24e86844a8624ec497fecce492c",
+          "title": "En liten veiviser gjennom Borgarsyssel museum",
+          "year": "19410101",
+          "url": "https://www.nb.no/items/66fbd24e86844a8624ec497fecce492c",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 22016,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Borgarsyssel",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Borgarsyssel"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Gamlebyen",
+      "photos": 219,
+      "bookTitleHits": 104,
+      "bookExamples": [
+        {
+          "id": "0f77090bf3c1f62a889a8a845f59e5d0",
+          "title": "Vandring i Gamlebyen",
+          "year": "1993",
+          "url": "https://www.nb.no/items/0f77090bf3c1f62a889a8a845f59e5d0",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "904316404574f911b41f7b8e9fecf42f",
+          "title": "Leiekontrakter i Gamlebyen",
+          "year": "1981",
+          "url": "https://www.nb.no/items/904316404574f911b41f7b8e9fecf42f",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "07c7de5ddfb0197c342b843394d1fca8",
+          "title": "Leiekontrakter i Gamlebyen",
+          "year": "19810101",
+          "url": "https://www.nb.no/items/07c7de5ddfb0197c342b843394d1fca8",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "1a1db84f2c7e3d686c98e9190f4c92dd",
+          "title": "Huset i Gamlebyen",
+          "year": "19230101",
+          "url": "https://www.nb.no/items/1a1db84f2c7e3d686c98e9190f4c92dd",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "1c0e1aae35beb93075aecc25122f23f8",
+          "title": "Vandring i Gamlebyen",
+          "year": "19820101",
+          "url": "https://www.nb.no/items/1c0e1aae35beb93075aecc25122f23f8",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "99e07d67a444aff373bab9c547b3bcdb",
+          "title": "Vandring i Gamlebyen",
+          "year": "1982",
+          "url": "https://www.nb.no/items/99e07d67a444aff373bab9c547b3bcdb",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f41c94bec4c7a344f0ca3c71ec6d27ab",
+          "title": "Fredrikstad : Gamlebyen og festningen",
+          "year": "19340101",
+          "url": "https://www.nb.no/items/f41c94bec4c7a344f0ca3c71ec6d27ab",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "75cfa55184b7d0c256557494fbdcb6fa",
+          "title": "Fredrikstad : Gamlebyen og festningen",
+          "year": "1934",
+          "url": "https://www.nb.no/items/75cfa55184b7d0c256557494fbdcb6fa",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 187350,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Gamlebyen",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Gamlebyen"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Kongsten",
+      "photos": 54,
+      "bookTitleHits": 4,
+      "bookExamples": [
+        {
+          "id": "859214f923d8f9c68757a0c6e75568a6",
+          "title": "Mysteriet på Kongsten fort",
+          "year": "2013",
+          "url": "https://www.nb.no/items/859214f923d8f9c68757a0c6e75568a6",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "3c2b2535e4fb0a74ffcbd04336bd83ac",
+          "title": "Kongsten fort 300 år : 1685-1985 : Fredrikstad museum",
+          "year": "19850101",
+          "url": "https://www.nb.no/items/3c2b2535e4fb0a74ffcbd04336bd83ac",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "f449b6fad826af784ddb0d6c5b717c6d",
+          "title": "Kongsten fort 300 år : 1685-1985 : Fredrikstad museum",
+          "year": "1985",
+          "url": "https://www.nb.no/items/f449b6fad826af784ddb0d6c5b717c6d",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "ea6205fbd9464b451c9b05d7fe113889",
+          "title": "Kongsten fort 300 år : 1685-1985 : Fredrikstad museum",
+          "year": "1985",
+          "url": "https://www.nb.no/items/ea6205fbd9464b451c9b05d7fe113889",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 62569,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Kongsten",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Kongsten"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Kråkerøy",
+      "photos": 36,
+      "bookTitleHits": 45,
+      "bookExamples": [
+        {
+          "id": "53bf9b551dc9309a6cd81bb3cddcc222",
+          "title": "Lokalsamfunnsprosjektet Kråkerøy Nord",
+          "year": "2003",
+          "url": "https://www.nb.no/items/53bf9b551dc9309a6cd81bb3cddcc222",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "2d336bc344537fe10ff9aa6bb09bc23b",
+          "title": "Folketelling for Kråkerøy 1875",
+          "year": "1998",
+          "url": "https://www.nb.no/items/2d336bc344537fe10ff9aa6bb09bc23b",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "d7668a3d3a5f5b8f262a533159424608",
+          "title": "Lokalsamfunnsprosjektet Rød på Kråkerøy",
+          "year": "1999",
+          "url": "https://www.nb.no/items/d7668a3d3a5f5b8f262a533159424608",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "83a35ca9713266ba93581d781c465b20",
+          "title": "Kråkerøy : En vandring med skisseboksblad",
+          "year": "19730101",
+          "url": "https://www.nb.no/items/83a35ca9713266ba93581d781c465b20",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "5689c1a54bf41fa3a0428a8632896bee",
+          "title": "Røed-slekten på Femdal, Kråkerøy",
+          "year": "1992",
+          "url": "https://www.nb.no/items/5689c1a54bf41fa3a0428a8632896bee",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "6d082f428288a1b652c0e86def02a508",
+          "title": "Kråkerøy : en vandring med skisseboksblad",
+          "year": "1973",
+          "url": "https://www.nb.no/items/6d082f428288a1b652c0e86def02a508",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "71ef918f8f0503e903649d18ea0ef417",
+          "title": "Kråkerøy : en østnorsk kystbygd. [1]",
+          "year": "1957",
+          "url": "https://www.nb.no/items/71ef918f8f0503e903649d18ea0ef417",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "d08d2c7f8a0017e947fc7edf4db5ea52",
+          "title": "Langøya : et sted på Kråkerøy",
+          "year": "1999",
+          "url": "https://www.nb.no/items/d08d2c7f8a0017e947fc7edf4db5ea52",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 138788,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Kr%C3%A5ker%C3%B8y",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Kr%C3%A5ker%C3%B8y"
+    },
+    {
+      "city": "Fredrikstad",
+      "name": "Fredrikstad domkirke",
+      "photos": 14,
+      "bookTitleHits": 2,
+      "bookExamples": [
+        {
+          "id": "8ccc6d2d8a7a09890deeb9b4091655ac",
+          "title": "Fredrikstad Domkirke 100 år",
+          "year": "1980",
+          "url": "https://www.nb.no/items/8ccc6d2d8a7a09890deeb9b4091655ac",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        },
+        {
+          "id": "5ffa003654e00e58f2f8a849200ae4f3",
+          "title": "Borg Bach-kor 10 år : jubileumskonsert, Fredrikstad domkirke søndag 21. november 1993 kl. 19.00",
+          "year": "1993",
+          "url": "https://www.nb.no/items/5ffa003654e00e58f2f8a849200ae4f3",
+          "evidence": "Navnet finnes i katalogtittelen. Innholdet og koblingen til enkeltbilder er ikke kontrollert."
+        }
+      ],
+      "newspaperSearchHits": 10459,
+      "bookSearchUrl": "https://www.nb.no/search?mediatype=bøker&q=Fredrikstad%20domkirke",
+      "newspaperSearchUrl": "https://www.nb.no/search?mediatype=aviser&q=Fredrikstad%20domkirke"
+    }
+  ]
+}
