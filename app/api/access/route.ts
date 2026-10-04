@@ -12,12 +12,12 @@ export async function GET(req:Request){
  const readable=files.find((f:any)=>/\.(pdf|epub|txt)$/i.test(f.name));
  const rights=str(m.licenseurl)||str(m.rights)||'Gjenbruksrettigheter ikke oppgitt';
  const reusable=/^https?:\/\/creativecommons\.org\/(publicdomain\/|licenses\/by(?:-|\/))/i.test(str(m.licenseurl));
- const picture=files.find((f:any)=>/\.(jpe?g|png)$/i.test(f.name)&&f.source==='original');
+ const picture=files.find((f:any)=>/\.(jpe?g|png)$/i.test(f.name)&&f.source==='original'&&!/thumb|item tile/i.test(f.format||'')&&!/^__ia_thumb/.test(f.name));
  const candidate=audio||readable||picture;
  const fileUrl=candidate?'https://archive.org/download/'+encodeURIComponent(id)+'/'+encodeURIComponent(candidate.name):'';
  let available=false;
  if(!restricted&&fileUrl){try{const r=await fetch(fileUrl,{method:'HEAD',signal:AbortSignal.timeout(8000)});available=r.ok}catch{}}
  const scanned=files.some((f:any)=>/scandata\.xml$/i.test(f.name));
- return Response.json({facts:m.mediatype==='image'?iaPhotoDetails(m):[],open:available,access:restricted?'Krever lån / innlogging':available?'Fritt tilgjengelig':'Tilgang ikke avklart',rights,audio:available&&audio&&reusable?fileUrl:undefined,embed:!restricted&&available&&m.mediatype==='texts'&&scanned?'https://archive.org/embed/'+encodeURIComponent(id):undefined,pages:available&&picture&&candidate===picture&&reusable?[{url:fileUrl,large:fileUrl,label:'1'}]:[]});
+ return Response.json({facts:m.mediatype==='image'?iaPhotoDetails(m):[],open:available,access:restricted?'Krever lån / innlogging':available?'Fritt tilgjengelig':'Tilgang ikke avklart',rights,audio:available&&audio&&reusable?fileUrl:undefined,embed:!restricted&&available&&m.mediatype==='texts'&&scanned?'https://archive.org/embed/'+encodeURIComponent(id):undefined,pages:available&&picture&&candidate===picture&&m.mediatype==='image'?[{url:fileUrl,large:fileUrl,label:'1'}]:[]});
  }catch{return Response.json({error:'Tilgangen kunne ikke sjekkes. Åpne hos Internet Archive.'},{status:502});}
 }
