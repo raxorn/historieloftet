@@ -1,0 +1,140 @@
+{
+  "id": "city-photo-catalog-v1",
+  "fetchedAt": "2026-10-04T16:37:07.047Z",
+  "source": "Nasjonalbibliotekets åpne fotokatalog",
+  "method": "Katalogposter for Sarpsborg og Fredrikstad datert før 2000, hentet per tiår. Dubletter og egne baksideposter er fjernet. Eksisterende pilotkategorier er beholdt. Nye motivgrupper er automatiske forslag fra arkivtittel og emneord; flyfoto med serienummer uten motivtekst er merket uavklart. Stedsnavn er arkivregistrering, ikke verifisert fotomotiv eller GPS-posisjon. Kildens tilgang og lisens avgjør om bildet kan vises her eller bare lenkes til katalogen.",
+  "cities": [
+    {
+      "city": "Sarpsborg",
+      "catalogHits": 5166,
+      "unique": 5041,
+      "excludedBacks": 0,
+      "items": 5041,
+      "alreadyInPilots": 1200,
+      "newItems": 3841,
+      "displayable": 5038,
+      "sourceOnly": 3,
+      "unresolvedFlyPhotos": 3259,
+      "unresolvedOther": 291,
+      "visuallyReviewed": 497,
+      "decades": [
+        {
+          "decade": 1860,
+          "count": 1
+        },
+        {
+          "decade": 1880,
+          "count": 1
+        },
+        {
+          "decade": 1890,
+          "count": 6
+        },
+        {
+          "decade": 1900,
+          "count": 375
+        },
+        {
+          "decade": 1910,
+          "count": 261
+        },
+        {
+          "decade": 1920,
+          "count": 207
+        },
+        {
+          "decade": 1930,
+          "count": 96
+        },
+        {
+          "decade": 1940,
+          "count": 127
+        },
+        {
+          "decade": 1950,
+          "count": 168
+        },
+        {
+          "decade": 1960,
+          "count": 389
+        },
+        {
+          "decade": 1970,
+          "count": 251
+        },
+        {
+          "decade": 1980,
+          "count": 9
+        },
+        {
+          "decade": 1990,
+          "count": 3150
+        }
+      ]
+    },
+    {
+      "city": "Fredrikstad",
+      "catalogHits": 3543,
+      "unique": 3514,
+      "excludedBacks": 30,
+      "items": 3484,
+      "alreadyInPilots": 200,
+      "newItems": 3284,
+      "displayable": 3481,
+      "sourceOnly": 3,
+      "unresolvedFlyPhotos": 1445,
+      "unresolvedOther": 1146,
+      "visuallyReviewed": 200,
+      "decades": [
+        {
+          "decade": 1860,
+          "count": 2
+        },
+        {
+          "decade": 1890,
+          "count": 9
+        },
+        {
+          "decade": 1900,
+          "count": 331
+        },
+        {
+          "decade": 1910,
+          "count": 482
+        },
+        {
+          "decade": 1920,
+          "count": 257
+        },
+        {
+          "decade": 1930,
+          "count": 523
+        },
+        {
+          "decade": 1940,
+          "count": 195
+        },
+        {
+          "decade": 1950,
+          "count": 78
+        },
+        {
+          "decade": 1960,
+          "count": 60
+        },
+        {
+          "decade": 1970,
+          "count": 105
+        },
+        {
+          "decade": 1980,
+          "count": 8
+        },
+        {
+          "decade": 1990,
+          "count": 1434
+        }
+      ]
+    }
+  ]
+}

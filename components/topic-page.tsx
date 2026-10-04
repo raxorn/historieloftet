@@ -4,19 +4,20 @@ import {useState} from 'react';
 import Link from 'next/link';
 import {Archive, ArrowLeft, ExternalLink} from 'lucide-react';
 import ArchiveViewer from './archive-viewer';
-import recent from '../data/sarpsborg-1000.json';
-import first from '../data/sarpsborg-pilot.json';
+import borregaardPhotos from '../data/topic-photos/borregaard.json';
+import sarpsfossenPhotos from '../data/topic-photos/sarpsfossen.json';
 import index from '../data/topic-index.json';
 import sourceLinks from '../data/sarpsborg-source-links.json';
-import type {PilotItem} from '../lib/pilot';
+import type {RecordItem} from '../lib/archive';
 
-const allPhotos=[...recent.items,...first.items] as PilotItem[];
+type TopicPhoto=RecordItem & {sortYear:number;group:string;reviewed:boolean};
+const allPhotos=[...borregaardPhotos,...sarpsfossenPhotos] as TopicPhoto[];
 const byId=new Map(allPhotos.map(photo=>[photo.id,photo]));
 
 export default function TopicPage({topicId}:{topicId:'borregaard'|'sarpsfossen'}){
  const topic=index.topics.find(value=>value.id===topicId)!;
  const topicPhotoIds=new Set(index.photoTopics.filter(link=>link.topicId===topicId).map(link=>link.photoId));
- const photos=[...topicPhotoIds].map(id=>byId.get(id)).filter((photo):photo is PilotItem=>!!photo);
+ const photos=[...topicPhotoIds].map(id=>byId.get(id)).filter((photo):photo is TopicPhoto=>!!photo);
  const decades=[...new Set(photos.map(photo=>Math.floor(photo.sortYear/10)*10))].sort((a,b)=>a-b);
  const groups=[...new Set(photos.map(photo=>photo.group))].sort((a,b)=>a.localeCompare(b,'nb'));
  const [decade,setDecade]=useState('all');
@@ -36,7 +37,7 @@ export default function TopicPage({topicId}:{topicId:'borregaard'|'sarpsfossen'}
   <main className="topic-main">
    <Link className="pilot-back" href="/utforsk"><ArrowLeft size={16}/> Steder og bygninger</Link>
    <div className="eyebrow">{topic.type}</div><h1>{topic.name}</h1><p className="topic-intro">{topic.description}</p>
-   <p className="topic-scope">{photos.length} bilder i Historieloftets lagrede Sarpsborg-utvalg. Dette er ikke alle bilder som finnes hos Nasjonalbiblioteket.</p>
+   <p className="topic-scope">{photos.length} bilder i Historieloftets kartlagte bysamlinger fram til 2000. Dette er ikke alle bilder som finnes hos Nasjonalbiblioteket.</p>
    <div className="topic-columns">
     <section className="topic-gallery" aria-label={'Bilder av '+topic.name}>
      <div className="topic-toolbar">

@@ -1,0 +1,252 @@
+{
+  "fetchedAt": "2026-10-04T16:29:52.686Z",
+  "source": "Nasjonalbiblioteket",
+  "filters": [
+    "mediatype:bilder",
+    "contentClasses:public",
+    "subjectgeographic by city",
+    "year by decade"
+  ],
+  "counts": [
+    {
+      "city": "Fredrikstad",
+      "start": 1800,
+      "end": 1809,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1810,
+      "end": 1819,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1820,
+      "end": 1829,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1830,
+      "end": 1839,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1840,
+      "end": 1849,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1850,
+      "end": 1859,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1860,
+      "end": 1869,
+      "count": 2
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1870,
+      "end": 1879,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1880,
+      "end": 1889,
+      "count": 0
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1890,
+      "end": 1899,
+      "count": 9
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1900,
+      "end": 1909,
+      "count": 331
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1910,
+      "end": 1919,
+      "count": 482
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1920,
+      "end": 1929,
+      "count": 287
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1930,
+      "end": 1939,
+      "count": 523
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1940,
+      "end": 1949,
+      "count": 195
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1950,
+      "end": 1959,
+      "count": 78
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1960,
+      "end": 1969,
+      "count": 60
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1970,
+      "end": 1979,
+      "count": 105
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1980,
+      "end": 1989,
+      "count": 8
+    },
+    {
+      "city": "Fredrikstad",
+      "start": 1990,
+      "end": 1999,
+      "count": 1463
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1800,
+      "end": 1809,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1810,
+      "end": 1819,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1820,
+      "end": 1829,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1830,
+      "end": 1839,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1840,
+      "end": 1849,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1850,
+      "end": 1859,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1860,
+      "end": 1869,
+      "count": 1
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1870,
+      "end": 1879,
+      "count": 0
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1880,
+      "end": 1889,
+      "count": 1
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1890,
+      "end": 1899,
+      "count": 6
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1900,
+      "end": 1909,
+      "count": 375
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1910,
+      "end": 1919,
+      "count": 261
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1920,
+      "end": 1929,
+      "count": 207
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1930,
+      "end": 1939,
+      "count": 96
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1940,
+      "end": 1949,
+      "count": 127
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1950,
+      "end": 1959,
+      "count": 168
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1960,
+      "end": 1969,
+      "count": 389
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1970,
+      "end": 1979,
+      "count": 251
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1980,
+      "end": 1989,
+      "count": 9
+    },
+    {
+      "city": "Sarpsborg",
+      "start": 1990,
+      "end": 1999,
+      "count": 3275
+    }
+  ]
+}
