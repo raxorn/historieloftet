@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T18:54:24.647Z",
+  "fetchedAt": "2026-10-04T19:39:33.065Z",
   "scope": "Sarpsborg – innsamlet katalogmetadata, ikke ferdig koblet til bilder eller stedssider. Treff fra forskjellige kilder kan overlappe.",
   "sourceStatus": {
     "nationalLibrary": {
@@ -388,7 +388,13 @@
       ]
     },
     "europeana": {
-      "status": "API-nøkkel kreves før bulk-uttak. Ikke hentet."
+      "fetchedAt": "2026-10-04T19:36:08.950Z",
+      "broadSearchHits": 1246,
+      "titleSearchHits": 289,
+      "broadImages": 1187,
+      "broadLinksToDigitaltMuseum": 1158,
+      "titleLinksToDigitaltMuseum": 251,
+      "note": "Fullstendige søkeresultater for de to oppgitte spørringene, ikke et komplett uttrekk av alle Sarpsborg-verk i Europeana. Brede treff kan bare nevne byen i en biopplysning. Rettigheter og stedsrelevans må kontrolleres per post."
     },
     "digitalarkivet": {
       "status": "Ingen egnet offentlig API for bulk-uttak av bildesøket er bekreftet. Ikke hentet."
