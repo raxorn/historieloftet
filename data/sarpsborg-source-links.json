@@ -1,0 +1,459 @@
+{
+  "id": "sarpsborg-source-links-v1",
+  "createdAt": "2026-10-04T15:05:52.171Z",
+  "method": "Kilde-ID-er, titler og tilgang fra Nasjonalbibliotekets katalog. Foto–motiv-koblinger bygger på arkivtitler. Bokkoblinger gjelder emnet, ikke en bestemt boksidestekst. Avisutgaver har bare verifisert OCR-ordtreff; artikkel og bildekobling er ikke kontrollert.",
+  "topics": [
+    {
+      "id": "borregaard",
+      "name": "Borregaard fabrikker",
+      "kind": "Industriområde og virksomhet",
+      "aliases": [
+        "Borregaard Fabriker",
+        "Borregård fabrikker"
+      ],
+      "description": "Bildene er knyttet til Borregaard gjennom Nasjonalbibliotekets arkivtittel. Dette er en kobling til virksomheten eller området, ikke en påstand om en bestemt hendelse."
+    },
+    {
+      "id": "sarpsfossen",
+      "name": "Sarpsfossen",
+      "kind": "Foss og landskap",
+      "aliases": [
+        "Sarpfossen",
+        "Sarpefossen"
+      ],
+      "description": "Bildene er knyttet til Sarpsfossen gjennom arkivtittelen. Ulike ståsteder og år gir ikke samme motivutsnitt eller hendelse."
+    }
+  ],
+  "photoLinks": [
+    {
+      "photoId": "703a424a4b1799e5d82f24da61afc69a",
+      "pilotNumber": 74,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Borregaard Fabriker, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "8e962cae78727c4b6f21ddf3c4e3b9de",
+      "pilotNumber": 86,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Borregaard Fabriker",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "be726865105fb9c4e64cf1b7b029a727",
+      "pilotNumber": 114,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Borregård fabrikker",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "df6b312da09b11d13254b632ab199376",
+      "pilotNumber": 136,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Borregaard Fabriker, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "bb537fd9cb915d74070d9b779701285c",
+      "pilotNumber": 233,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 06869 Sarpsborg Borregaard Fabrikker]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "eb5c1ed087b31ae5241d74abb78c7a0c",
+      "pilotNumber": 236,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 06870 Sarpsborg Borregaard Fabrikker]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "a9571fb1ddded6b74375030ce919ddf6",
+      "pilotNumber": 352,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.WB 03987 Norske Papirfabriker Borregaard]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "519d803b9a2746eb2449a59644a27437",
+      "pilotNumber": 450,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard fabrikker mot Tarris, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "f1f4f455570cea7ab21cf1d9b993a890",
+      "pilotNumber": 459,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard fabrikker med Sarpsbroen, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "05ff8718994aaa3c1c8db7d54303de73",
+      "pilotNumber": 464,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard, Carbidfabrikken",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "65636ab08e87526e2b073ac95dcab027",
+      "pilotNumber": 476,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.WF 03446 Sarpsborg Borregaard]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "eb18568d8dd38a959dca4ccc22b78061",
+      "pilotNumber": 492,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "37b6e06379413d3c638a12b77894aec8",
+      "pilotNumber": 514,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsborg. Borregaard fabrikker.",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "a55d21cc7aba99aabc8477ecd462da8d",
+      "pilotNumber": 531,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsborg. Borregaard fabrikker.",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "610e016a2b461ff0a1df1295ddc9aab7",
+      "pilotNumber": 575,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Den Norske Cellulosefabrikk (Borregaard Cellulosefabrikk), Borregaard hovedgård, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "3288eb2e70d302250cfdf24acd56a8c5",
+      "pilotNumber": 591,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard industrier med Sarpsbroen tatt fra Hafslundøy.",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "cbbfd82081147982168caec8a77dcb34",
+      "pilotNumber": 601,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard industrier",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "130fc965871c48cd86cb2ca5c6547d54",
+      "pilotNumber": 624,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard cellulosefabrikk, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "73f267e3fe01576c13c293334186f06f",
+      "pilotNumber": 814,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard fabrikker, Glomma, Rødsøya, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "0f30645887adba8f1b1e72423d881efe",
+      "pilotNumber": 955,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Borregaard fabrikker, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "d6636c108173389640e93ce23460aafa",
+      "pilotNumber": 456,
+      "topicId": "borregaard",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Sarpefossen, Glomma, Sarpsborg, Borregaard, Hafslund, Opsund.",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "4b2dbc7922a849a45086874680c9f96e",
+      "pilotNumber": 3,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen (Copi)",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "2b3bc3095af287fb59361f3f267f8515",
+      "pilotNumber": 29,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "9a80021378ea5db8d50229152b1b415c",
+      "pilotNumber": 95,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen, Sarpsborg",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "e0cb878f3b05be61caf086415bea942d",
+      "pilotNumber": 137,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "a8fe10da3e5438de3c09320f5a223041",
+      "pilotNumber": 180,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen 1903",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "b040f6d7d5ab5260385cda06ef36e8c9",
+      "pilotNumber": 187,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 03026 Sarpsborg - Sarpsfossen med Elveparti 22/6 1904]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "06f57156bb6aafc6566c1ec1c5054c87",
+      "pilotNumber": 194,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpfossen IV, Det syder og bobler",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "6cffb816d6ca141e574aac1d99816269",
+      "pilotNumber": 225,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 06873 Sarpsborg Sarpsfossen og Broen]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "7e32925fdfe3e13bd59632d39da55d62",
+      "pilotNumber": 229,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "0514a63805c5c9cba9cc5c36cc4af7ef",
+      "pilotNumber": 237,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 08243 Sarpsfossen Ismasser 31/1 1908]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "94acf1ca8f4bba8c1bf25b3ba68f65b5",
+      "pilotNumber": 245,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 08239 Sarpsfossen set fra Borregaard siden 31/1 1908]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "140361186da90ce29a90eefe6e462752",
+      "pilotNumber": 266,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 11838 Sarpsfossen - Flom Vandstand 29/5 1910]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "00dc4c89f7698d76a60301f826be54c6",
+      "pilotNumber": 353,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 15869 Sarpsfossen 25/4]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "d6636c108173389640e93ce23460aafa",
+      "pilotNumber": 456,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Widerøe Flyveselskaps flyfoto fra Sarpsborg kommune : Sarpefossen, Glomma, Sarpsborg, Borregaard, Hafslund, Opsund.",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "65b8c59dce359b94a9f418d66085bd44",
+      "pilotNumber": 460,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.W 42040 Sarpsfossen broen]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "33248f38f58fe58de2f8ea5611734913",
+      "pilotNumber": 469,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: [NF.WF 03440 Sarpsborg Sarpsfossen]",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "2a519b445b326eef4d3612e932a6a9cf",
+      "pilotNumber": 512,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "0bc7fe49b3668c1695bedcc3de0486c5",
+      "pilotNumber": 578,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "30592af22dcc03d29ce927fd31d04968",
+      "pilotNumber": 681,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsborg. Sarpsfossen",
+      "status": "arkivbasert forslag"
+    },
+    {
+      "photoId": "d5fd52d4c1715c46da3806ae98b7d494",
+      "pilotNumber": 908,
+      "topicId": "sarpsfossen",
+      "relation": "motiv eller sted nevnt i arkivtittel",
+      "basis": "Arkivtittel: Sarpsfossen",
+      "status": "arkivbasert forslag"
+    }
+  ],
+  "sources": [
+    {
+      "id": "dd7d43613bb8feacc5a34abff3198ff9",
+      "topicId": "borregaard",
+      "kind": "bok",
+      "title": "A/S Borregaard : bedriften vår i Sarpsborg",
+      "published": "1956",
+      "url": "https://www.nb.no/items/dd7d43613bb8feacc5a34abff3198ff9",
+      "access": "Kan leses fra Norge",
+      "relation": "bok om virksomheten",
+      "evidence": "Nasjonalbibliotekets katalogtittel og emneord navngir Borregaard. Ingen bestemt side er kontrollert.",
+      "status": "emnekobling"
+    },
+    {
+      "id": "2473ea58eb03df54a9a27d081840a244",
+      "topicId": "borregaard",
+      "kind": "bok",
+      "title": "Foredlet virke : historien om Borregaard 1889–1989",
+      "published": "1989",
+      "url": "https://www.nb.no/items/2473ea58eb03df54a9a27d081840a244",
+      "access": "Kan leses fra Norge",
+      "relation": "historisk oversikt",
+      "evidence": "Nasjonalbibliotekets katalogtittel navngir Borregaard og perioden. Ingen bestemt side er kontrollert.",
+      "status": "emnekobling"
+    },
+    {
+      "id": "1e639ebfaa62e97ef856924d2156ff1d",
+      "topicId": "sarpsfossen",
+      "kind": "bok",
+      "title": "Sarpsfossen i dikt og virkelighet",
+      "published": "1944",
+      "url": "https://www.nb.no/items/1e639ebfaa62e97ef856924d2156ff1d",
+      "access": "Kan leses fra Norge",
+      "relation": "bok om fossen",
+      "evidence": "Nasjonalbibliotekets katalogtittel navngir Sarpsfossen. Ingen bestemt side er kontrollert.",
+      "status": "emnekobling"
+    },
+    {
+      "id": "9ee1afac60488d0c283f8b9717422600",
+      "topicId": "sarpsfossen",
+      "kind": "bok",
+      "title": "Elektrisitet fra Sarpsfossen : gjennom 100 år, 1892–1992",
+      "published": "1992",
+      "url": "https://www.nb.no/items/9ee1afac60488d0c283f8b9717422600",
+      "access": "Kan leses fra Norge",
+      "relation": "historisk oversikt om kraftutbygging",
+      "evidence": "Nasjonalbibliotekets katalogtittel navngir Sarpsfossen. Ingen bestemt side er kontrollert.",
+      "status": "emnekobling"
+    },
+    {
+      "id": "85e3c8ea6390f0ec8f6f72ba770b9c73",
+      "topicId": "borregaard",
+      "kind": "avis",
+      "title": "Glommen",
+      "published": "14.12.1925",
+      "url": "https://www.nb.no/items/85e3c8ea6390f0ec8f6f72ba770b9c73",
+      "access": "Les hos Nasjonalbiblioteket; gjenbruk er begrenset",
+      "relation": "ordtreff i avisutgave",
+      "evidence": "NBs OCR-søk fant «Borregaard» på side 1. Artikkelens innhold og relevans for bildene er ikke kontrollert.",
+      "status": "må kontrolleres",
+      "page": "1"
+    },
+    {
+      "id": "46338b848965a422d1e498ef6b5b3ecc",
+      "topicId": "borregaard",
+      "kind": "avis",
+      "title": "Glommen",
+      "published": "04.07.1928",
+      "url": "https://www.nb.no/items/46338b848965a422d1e498ef6b5b3ecc",
+      "access": "Les hos Nasjonalbiblioteket; gjenbruk er begrenset",
+      "relation": "ordtreff i avisutgave",
+      "evidence": "NBs OCR-søk fant «Borregaard» på side 1 og 2. Artikkelens innhold og relevans for bildene er ikke kontrollert.",
+      "status": "må kontrolleres",
+      "page": "1–2"
+    },
+    {
+      "id": "d48e171722c056bda78b9ce0500c2299",
+      "topicId": "sarpsfossen",
+      "kind": "avis",
+      "title": "Glommen",
+      "published": "10.01.1925",
+      "url": "https://www.nb.no/items/d48e171722c056bda78b9ce0500c2299",
+      "access": "Les hos Nasjonalbiblioteket; gjenbruk er begrenset",
+      "relation": "ordtreff i avisutgave",
+      "evidence": "NBs OCR-søk fant «Sarpsfossen» på side 1. Artikkelens innhold og relevans for bildene er ikke kontrollert.",
+      "status": "må kontrolleres",
+      "page": "1"
+    },
+    {
+      "id": "b257b91210de4784d4576e9d527bb155",
+      "topicId": "sarpsfossen",
+      "kind": "avis",
+      "title": "Glommen",
+      "published": "07.12.1928",
+      "url": "https://www.nb.no/items/b257b91210de4784d4576e9d527bb155",
+      "access": "Les hos Nasjonalbiblioteket; gjenbruk er begrenset",
+      "relation": "ordtreff i avisutgave",
+      "evidence": "NBs OCR-søk fant «Sarpsfossen» på side 2. Artikkelens innhold og relevans for bildene er ikke kontrollert.",
+      "status": "må kontrolleres",
+      "page": "2"
+    }
+  ]
+}
