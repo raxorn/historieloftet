@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-10-04T20:39:18.045Z",
+  "method": "Automatiske forslag fra arkivmetadata. Ingen visuell modell eller uavhengig manuell kontroll av dette utvalget er kjørt. Høy sikkerhet betyr at flere metadatafelt støtter samme sted, ikke at fotografiet visuelt er stedfestet.",
+  "selection": "100 nye NB-bilder og 100 bilder fra DigitaltMuseum per by, spredt over daterte tiår. NB-bilder i tidligere 200/1000-piloter er utelatt. Utvalget er ikke statistisk representativt.",
+  "cities": [
+    {
+      "city": "Sarpsborg",
+      "selected": 200,
+      "bySource": {
+        "Nasjonalbiblioteket": 100,
+        "DigitaltMuseum": 100
+      },
+      "withPlaceSuggestion": 59,
+      "withoutPlaceSuggestion": 141,
+      "highMetadataEvidence": 14,
+      "mediumMetadataEvidence": 43,
+      "lowMetadataEvidence": 5,
+      "withSourceCoordinate": 5
+    },
+    {
+      "city": "Fredrikstad",
+      "selected": 200,
+      "bySource": {
+        "Nasjonalbiblioteket": 100,
+        "DigitaltMuseum": 100
+      },
+      "withPlaceSuggestion": 41,
+      "withoutPlaceSuggestion": 159,
+      "highMetadataEvidence": 0,
+      "mediumMetadataEvidence": 35,
+      "lowMetadataEvidence": 8,
+      "withSourceCoordinate": 24
+    }
+  ]
+}

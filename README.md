@@ -14,6 +14,8 @@ Opprett `.env.local` i prosjektmappen og legg inn `EUROPEANA_API_KEY=din_nye_nø
 
 ### Kildekandidater for Sarpsborg og Fredrikstad
 
+`node scripts/build-place-link-pilot.mjs` velger 100 NB-bilder som ikke inngikk i de tidligere pilotene og 100 DigitaltMuseum-bilder for hver by, fordelt over daterte tiår. Den foreslår steder fra arkivtittel, stedsfelt og emneord, og finner mulige bøker og lokalhistoriske oppslag når stedsnavnet står i tittelen. `node scripts/check-place-link-pilot.mjs` kontrollerer utvalget og datakoblingene. Resultatet kan filtreres på `/pilot/stedskoblinger`. Dette er metadataforslag til menneskelig vurdering, ikke visuell stedfesting eller bekreftede bilde–bok-koblinger.
+
 `node scripts/harvest-sarpsborg-sources.mjs --city Fredrikstad` henter katalogmetadata fra Nasjonalbiblioteket, et utvalg fra DigitaltMuseum med demo-tilgang, kommuneavgrensede registreringer i Kulturminnesøk og filnavntreff fra Wikimedia Commons. Bruk `--city Sarpsborg` for å oppdatere den andre byen. Europeana hentes separat med lokal nøkkel:
 
 ```
